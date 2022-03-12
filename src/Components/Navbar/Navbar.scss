@@ -86,7 +86,7 @@ nav.Navbar {
 
 @media screen and (max-width: 700px) {
     nav.Navbar {
-        h1 {
+        p {
             font-size : 2rem;
         }
     }
@@ -99,6 +99,25 @@ nav.Navbar {
             input {
                 padding: 1.1em;
                 width: 200px;
+            }
+            button {
+                border-radius: 0px $bradius $bradius 0px;
+                background-color: $bg-btn;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav.Navbar {
+        p {
+            font-size : 1.2rem;
+        }
+        div.Searchbar {
+            transform: scale(0.8);
+            input {
+                padding: 1.1em;
+                width: 150px;
             }
             button {
                 border-radius: 0px $bradius $bradius 0px;

@@ -100,7 +100,7 @@ nav.Navbar div.Searchbar button:active img {
 }
 
 @media screen and (max-width: 700px) {
-  nav.Navbar h1 {
+  nav.Navbar p {
     font-size: 2rem;
   }
 }
@@ -113,6 +113,24 @@ nav.Navbar div.Searchbar button:active img {
   nav.Navbar div.Searchbar input {
     padding: 1.1em;
     width: 200px;
+  }
+  nav.Navbar div.Searchbar button {
+    border-radius: 0px 10px 10px 0px;
+    background-color: #f0f0f0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav.Navbar p {
+    font-size: 1.2rem;
+  }
+  nav.Navbar div.Searchbar {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  nav.Navbar div.Searchbar input {
+    padding: 1.1em;
+    width: 150px;
   }
   nav.Navbar div.Searchbar button {
     border-radius: 0px 10px 10px 0px;
