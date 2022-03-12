@@ -1,0 +1,109 @@
+$bg : #181818;
+$bradius : 10px;
+$bg-btn : rgb(240, 240, 240);
+
+@mixin center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav.Navbar {
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    @include center();
+    width: 100%;
+    height: 10%;
+    background-color: $bg;
+    p {
+        outline: none;
+        border: none;
+        background: none;
+        text-decoration: none;
+        color: invert($bg);
+        font-size: 2.5rem;
+        font-weight: 700;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    div.Searchbar {
+        border-radius: $bradius;
+        height: 50px;
+        &:hover{
+            input{
+                padding: 1.1em;
+                width: 200px;
+            }
+            button {
+                border-radius: 0px $bradius $bradius 0px;
+                background-color: $bg-btn;
+            }
+        }
+        background-color: white;
+        @include center();
+        input {
+            padding: 0;
+            transition: all ease-out 400ms;
+            width: 0px;
+            font-size: 16px;
+            border-radius: $bradius  0px 0px $bradius;
+            &:focus {
+                padding: 1.1em;
+                width: 200px;
+                box-shadow: 0px 0px 5px rgb(0, 0, 0);
+                z-index: 1;
+            }
+            height:30%;
+            outline: none;
+            border: none;
+        }
+        button {
+            height: 100%;
+            transition: border-radius  ease-out 400ms;
+            
+            background-color: white;
+            border: none;
+            outline: none;
+            padding: 0 .5em 0 .5em;
+            border-radius: $bradius * 3;
+            cursor: pointer;
+            &:hover{
+                background-color: darken($bg-btn, 10%);
+            }
+            &:active {
+                background-color: invert($bg-btn);
+                img {
+                    filter: invert(100%);
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 700px) {
+    nav.Navbar {
+        h1 {
+            font-size : 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    nav.Navbar {
+        div.Searchbar {
+            transform: scale(0.9);
+            input {
+                padding: 1.1em;
+                width: 200px;
+            }
+            button {
+                border-radius: 0px $bradius $bradius 0px;
+                background-color: $bg-btn;
+            }
+        }
+    }
+}

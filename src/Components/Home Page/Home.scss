@@ -1,0 +1,82 @@
+main{
+    .mainimg {
+        img {
+            width: 100vw;
+            position: relative;
+        }
+        p {
+            color: white;
+            animation: mainimg 1s;
+            place-items: center;
+            position: absolute;
+            display: grid;
+            font-size: 5em;
+            width: 70%;
+            font-weight: 700;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            &:after {
+                font-size: 0.8em;
+                content: 'Vem saborear o melhor de STP';
+            }
+        }
+    }
+}
+@media screen and (max-width: 1330px) {
+    main {
+        .mainimg {
+            p {
+                animation: none;
+                top: 20%;
+                font-size: 4em;
+                &:after {
+                    font-size: 0.8em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    main {
+        .mainimg {
+            p {
+                animation: none;
+                top: 20%;
+                font-size: 3.5em;
+                &:after {
+                    font-size: 0.8em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 930px) {
+    main {
+        .mainimg {
+            p {
+                animation: none;
+                top: 15%;
+                font-size: 3em;
+                &:after {
+                    font-size: 0.8em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 790px) {
+    main {
+        .mainimg {
+            p {
+                display: none;
+                }
+            img {
+                display: none;
+            }
+            }
+        }
+}

@@ -1,0 +1,72 @@
+main .mainimg img {
+  width: 100vw;
+  position: relative;
+}
+
+main .mainimg p {
+  color: white;
+  -webkit-animation: mainimg 1s;
+          animation: mainimg 1s;
+  place-items: center;
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  font-size: 5em;
+  width: 70%;
+  font-weight: 700;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .mainimg p:after {
+  font-size: 0.8em;
+  content: 'Vem saborear o melhor de STP';
+}
+
+@media screen and (max-width: 1330px) {
+  main .mainimg p {
+    -webkit-animation: none;
+            animation: none;
+    top: 20%;
+    font-size: 4em;
+  }
+  main .mainimg p:after {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  main .mainimg p {
+    -webkit-animation: none;
+            animation: none;
+    top: 20%;
+    font-size: 3.5em;
+  }
+  main .mainimg p:after {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  main .mainimg p {
+    -webkit-animation: none;
+            animation: none;
+    top: 15%;
+    font-size: 3em;
+  }
+  main .mainimg p:after {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  main .mainimg p {
+    display: none;
+  }
+  main .mainimg img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

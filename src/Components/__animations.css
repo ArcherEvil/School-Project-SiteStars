@@ -1,0 +1,8 @@
+@keyframes mainimg {
+    0% {
+        top: 70%;
+    }
+    100% {
+        top: 30%;
+    }
+  }

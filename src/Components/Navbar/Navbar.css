@@ -1,0 +1,122 @@
+nav.Navbar {
+  z-index: 4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 10%;
+  background-color: #181818;
+}
+
+nav.Navbar p {
+  outline: none;
+  border: none;
+  background: none;
+  text-decoration: none;
+  color: #e7e7e7;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+nav.Navbar p:hover {
+  text-decoration: underline;
+}
+
+nav.Navbar div.Searchbar {
+  border-radius: 10px;
+  height: 50px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav.Navbar div.Searchbar:hover input {
+  padding: 1.1em;
+  width: 200px;
+}
+
+nav.Navbar div.Searchbar:hover button {
+  border-radius: 0px 10px 10px 0px;
+  background-color: #f0f0f0;
+}
+
+nav.Navbar div.Searchbar input {
+  padding: 0;
+  -webkit-transition: all ease-out 400ms;
+  transition: all ease-out 400ms;
+  width: 0px;
+  font-size: 16px;
+  border-radius: 10px 0px 0px 10px;
+  height: 30%;
+  outline: none;
+  border: none;
+}
+
+nav.Navbar div.Searchbar input:focus {
+  padding: 1.1em;
+  width: 200px;
+  -webkit-box-shadow: 0px 0px 5px black;
+          box-shadow: 0px 0px 5px black;
+  z-index: 1;
+}
+
+nav.Navbar div.Searchbar button {
+  height: 100%;
+  -webkit-transition: border-radius  ease-out 400ms;
+  transition: border-radius  ease-out 400ms;
+  background-color: white;
+  border: none;
+  outline: none;
+  padding: 0 .5em 0 .5em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+nav.Navbar div.Searchbar button:hover {
+  background-color: #d7d7d7;
+}
+
+nav.Navbar div.Searchbar button:active {
+  background-color: #0f0f0f;
+}
+
+nav.Navbar div.Searchbar button:active img {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+@media screen and (max-width: 700px) {
+  nav.Navbar h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  nav.Navbar div.Searchbar {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  nav.Navbar div.Searchbar input {
+    padding: 1.1em;
+    width: 200px;
+  }
+  nav.Navbar div.Searchbar button {
+    border-radius: 0px 10px 10px 0px;
+    background-color: #f0f0f0;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */
