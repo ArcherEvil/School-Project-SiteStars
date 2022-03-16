@@ -61,7 +61,7 @@ nav.Navbar div.Searchbar input {
   width: 0px;
   font-size: 16px;
   border-radius: 10px 0px 0px 10px;
-  height: 30%;
+  height: 100%;
   outline: none;
   border: none;
 }
@@ -120,6 +120,19 @@ nav.Navbar div.Searchbar button:active img {
   }
 }
 
+@media screen and (orientation: landscape) and (max-width: 1000px) and (max-height: 400px) {
+  nav.Navbar {
+    height: 20%;
+  }
+  nav.Navbar p {
+    font-size: 1.2rem;
+  }
+  nav.Navbar div.Searchbar {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
 @media screen and (max-width: 500px) {
   nav.Navbar p {
     font-size: 1.2rem;
@@ -137,4 +150,4 @@ nav.Navbar div.Searchbar button:active img {
     background-color: #f0f0f0;
   }
 }
-/*# sourceMappingURL=Navbar.css.map */
+/*# sourceMappingURL=Navbar.module.css.map */

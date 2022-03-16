@@ -1,0 +1,54 @@
+[
+  {
+    "Name" : "Jaca",
+    "Cientific" : "artocarpus heterophyllus",
+    "Description": "Jaqueira conhecida cientificamente como artocarpus heterophyllus, é uma árvore tropical da qual o fruto é jaca. Árvore de folhagem persistente (perenifólia), com cerca de 20 metros de altura e com um tronco de 30 a 60 centímetros de diâmetro revestido por uma casca espessa. Planta cauliflora, com as flores masculinas agrupada em espigas claviforme e as femininas em espigas compactas. Os frutos são de forma ovalada, nascem diretamente do tronco e dos galhos mais robusto e chegam a pesar em média 10Kg. A parte comestível da jaca são os frutículos (bagos) encontrados no interior do sincarpo ultrapassando normalmente uma centena e podem ser de duas variedades a dura, que produz frutos maiores, e a mole, em geral mais doce, o fruto é menor.",
+    "Extras" : {
+      "Indications" : [
+        "Rica em fibras, sendo indicada às pessoas com problemas intestinais.",
+        "É rica também em Cálcio, Fósforo e Ferro e vitaminas do Complexo B, principalmente a vitamina B2 (Riboflavina) e vitamina B5 (Niacina) que promovem o crescimento normal formação dos ossos e dentes. ",
+        "Combater a tosse de qualquer natureza.",
+        "Seus caroços agem contra a prisão de ventre.",
+        "Cem gramas de jaca fornecem 61 calorias.",
+        "Cem gramas de jaca fornecem 61 calorias."
+      ]
+    }
+  }, 
+  {
+    "Name" : "Banana pão",
+    "Cientific" : "Musa",
+    "Description": "A banana pão é uma pseudobaga da bananeira uma planta herbácea vivaz acaule da família musaceae e são atualmente cultivadas em praticamente todas as regiões tropicais do planeta. O termo banana refere-se às frutas de polpa macia e doce que podem ser consumidas cruas, contudo, existem variedades de cultivo, de polpa mais rija e de casca mais firme designadas por bananas-pão ou banana da terra que são consumidas cozinhadas (assadas, cozida e frita), constituindo um alimento base das regiões tropicais, neste caso São Tomé e Príncipe. As bananas formam-se em cachos, semelhante ao das uvas, superior aos pseudocaules que nascem de um verdadeiro caule subterrâneo cuja longevidade chega a 15 anos ou mais. Da parte inferior do cacho da banana ainda imaturo, sai um pendão e, em seu extremo, destaca-se um cone de coloração e consistência diferenciada, que é a flor da bananeira. É de cor verde, quando imaturas, chegando a amarela quando madura. Um cacho tem normalmente vinte bananas e pode chegar a pesar de 30 a 50 kg. Seu formato é alongado, podendo, contudo, variar muito na sua forma a depender das variedades de cultivo. Depois de cortada a banana escurece-se muito rapidamente, devido a oxidação em contato com o ar.",
+    "Extras":{
+      "Valor nutricional" : {
+        "Minerais" : "Cálcio, Ca (mg) – 6; Ferro, Fe (mg) – 0,31; Magnésio, Mg (mg) – 29; Fósforo, P (mg) – 20; Potássio, K (mg) – 396; Sódio, Na (mg) – 1; Zinco, Zn (mg) – 0,16; Cobre, Cu (mg) – 0,1; Manganês, Mn (mg) – 0,15; Selênio, Se (μg) – 1,1",
+        "Vitaminas" : "Vitamina A (Retinol) – 81 UI; Vitamina A (Retinol) – 8 μg_RE; Vitamina B1 (Tiamina) – 0,04 mg; Vitamina B2 (Riboflavina) – 0,1 mg; Vitamina B3 (Niacina) – 0,54 mg; Vitamina B5 (Ácido pantotênico) – 0,26 mg; Vitamina B6 (Piridoxina) – 0,57 µg; Vitamina B9 (Ácido fólico) – 19,1 UI; Vitamina C (Ácido ascórbico) – 9,1 mg; Vitamina E (Tocoferol) – 0,27 mg"
+      }
+    }
+  },
+  {
+    "Name" : "Fruta pão",
+    "Cientific" : "Artocarpus altilis",
+    "Description": "popularmente conhecida como fruteira cujo o fruto é fruta pão é uma árvore frutífera, aparentada com a jaca. As frutas-pão dividem-se em duas variedades: a apyrena, conhecida por fruta-pão de massa, que não possui sementes, e a seminífera, conhecida por fruta-pão de caroço, que apresenta numerosas sementes comestíveis e polpa não comestível. A fruta-pão também é uma árvore ornamental, de grande porte e crescimento rápido, podendo alcançar 20 metros de altura. Longeva, vive cerca de 80 anos. Sua folhas são muito bonitas, grandes, perenes e profundamente lobadas. Se for machucada, exsuda um látex leitoso que tem aplicações artesanais, para calafetação e como cola. A fruta-pão é uma planta monoica, isto é, com os dois sexos na mesma planta e flores separadas, masculinas e femininas. Os frutos são grandes, redondos como melões, e chegam a pesar 3 quilogramas e de cor verde-amarelada. A fruta-pão é uma árvore de clima tropical úmido e adapta-se bem ao litoral. Não é tolerante a locais demasiadamente secos ou frios. A frutificação inicia-se após 3 a 5 anos de implantação. A polpa da fruta-pão de massa é rica em calorias, carboidratos, água, vitaminas B1, B2 e C, cálcio, fósforo, ferro e tem baixo teor de gorduras. Industrialmente, a polpa foi aproveitada como fruta seca e farinha panificável, além de fonte para extração do amido e de farinha granulada semelhante ao sagu. Em uso caseiro, a polpa – quase madura – pode ser cozida, assada, transformada em purê ou cortada em fatias consumidas fritas com manteiga, mel ou melaço. Cortada em fatias (de 50–10 milímetros de espessura) secas ao sol ou em fornos, a polpa é usada para o preparo de raspas, crueiras ou aparas e para o preparo de farinhas que, misturadas à farinha de trigo, podem compor o pão caseiro. Madura, a polpa é aproveitada na fabricação de doces. As sementes também são usadas em substituição ao feijão para preparar guisados e ensopados. ",
+    "Extras":{
+      "Indications" : [
+        "Raiz: como antidiarreica; seu cozimento torna-a útil contra reumatismo, beribéri e entorpecimento de pernas dos humanos.",
+        "Flores novas (frescas): são emolientes e base de conserva acídula e comestível.",
+        "Polpa do fruto: reduzida a pasta quente é supurativo para tumores e furúnculos.",
+        "Sementes: são tônico para estômago e rins.",
+        "Látex: usado como cicatrizante de feridas."
+      ]
+    }
+  },
+  {
+    "Name" : "Safú",
+    "Cientific" : "Dacryodes edulis",
+    "Description": "Vulgarmente conhecido como safuzeiro é uma árvore de folha persistente que tem como fruto safú nativo tanto em São Tomé como Príncipe tem copa ampla, com folhas alternas, flores pequenas e frutos drupáceos comestíveis, de formato alongado e cor arroxeada na maturação. Pode chegar até mais ou menos cerca 30 a 40 metros de altura com um tronco com 60 a 80 centímetros de diâmetro. Este alimento é também uma iguaria preferida dos papagaios, periquitos, e das outras árvores silvestres. A reprodução dessa árvore que pode ser considerada uma atração visual ocorre uma vez por ano entre os meses de janeiro a abril e recomendado o consumo neste período de tempo pois ainda não se desenvolveu uma técnica para a armazenarão do produto ao longo do ano.",
+    "Extras":{
+      "Modo de Preparar": [
+        "Leva uma panela com aproximadamente 1L água ao lume e deixa a ferver. Com uma faca raspa o safú de forma a que fique listrado. Após água ferver, deite o safú na panela e dentro de minutos já está cozido pronto pra servir.",
+        "Há quem goste de comer safú meio cru e rijo ou até mesmo mole. Este fruto é maravilhoso e apetitoso, todos comem o safú com gosto e muita satisfação.",
+        "O safú pode ser consumido como aperitivo, sobremesa ou no pequeno-almoço, geralmente acompanhado com pão, broa de milho, fruta-pão assada, farinha de mandioca, etc. Muitas pessoas substituem a manteiga por safú para barrar o pão, porque há quem diga que a sua gordura é insaturadas. Este fruto também é utilizado na medicina tradicional africana, sem muitas indicações sobre a mesma. "
+      ]
+    }
+  }
+]

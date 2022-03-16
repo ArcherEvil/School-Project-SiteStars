@@ -1,6 +1,6 @@
 main{
     .mainimg {
-        img {
+        .image {
             width: 100vw;
             position: relative;
         }
@@ -17,9 +17,21 @@ main{
             left: 50%;
             transform: translate(-50%, -50%);
             &:after {
-                font-size: 0.8em;
-                content: 'Vem saborear o melhor de STP';
+                font-size: 0.5em;
+                content: 'Vem saborear o melhor de São Tomé e Príncipe';
             }
+        }
+    }
+    .content {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+            text-align: center;
+            font-size: 4em;
+            font-weight: 600;
+            text-decoration: underline;
         }
     }
 }
@@ -28,10 +40,10 @@ main{
         .mainimg {
             p {
                 animation: none;
-                top: 20%;
+                top: 30%;
                 font-size: 4em;
                 &:after {
-                    font-size: 0.8em;
+                    font-size: 0.5em;
                 }
             }
         }
@@ -43,10 +55,10 @@ main{
         .mainimg {
             p {
                 animation: none;
-                top: 20%;
+                top: 30%;
                 font-size: 3.5em;
                 &:after {
-                    font-size: 0.8em;
+                    font-size: 0.5em;
                 }
             }
         }
@@ -68,15 +80,34 @@ main{
     }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 1000px) {
     main {
         .mainimg {
             p {
                 display: none;
                 }
-            img {
+        .image {
                 display: none;
             }
+        }   
+        .content {
+            margin-top: 100px;
+            width: 100vw;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                text-align: center;
+                font-size: 2em;
+                font-weight: 600;
+                
             }
         }
+        }
 }
+
+
+
+
+
