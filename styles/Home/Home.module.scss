@@ -1,3 +1,16 @@
+
+/* Animations */
+
+@keyframes mainimg {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: 40%;
+    }
+  } 
+
+
 main{
     .mainimg {
         .image {
@@ -6,14 +19,14 @@ main{
         }
         p {
             color: white;
-            animation: mainimg 1s;
+            animation: mainimg 0.5s ease-out;
             place-items: center;
             position: absolute;
             display: grid;
             font-size: 5em;
             width: 70%;
             font-weight: 700;
-            top: 30%;
+            top: 40%;
             left: 50%;
             transform: translate(-50%, -50%);
             &:after {
@@ -23,58 +36,80 @@ main{
         }
     }
     .content {
+        margin-top: 100px;
         width: 100vw;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        p {
-            text-align: center;
-            font-size: 4em;
-            font-weight: 600;
-            text-decoration: underline;
+        .ctitle {
+
+            p {
+                position: relative;
+                text-align: center;
+                display: inline-block;
+                white-space: nowrap;
+                overflow: hidden;
+                width: 100%;
+                font-size: 4em;
+                font-weight: 600;
+                text-decoration: underline;
+                &:hover {
+                    &:before {
+                        width: 100%;
+                    }
+                }
+                &:before {
+                    content: 'Enjoy our Menu!';
+                    position: absolute;
+                    display: inline-block;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    width: 0%;
+                    height: 100%;
+                    transition: width 400ms ease-out;
+                    text-decoration: underline;
+                    background-color: black;
+                    top: 0;
+                    left: 0;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+        .cardlist {
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+            white-space: normal;
+            justify-content: center;
+            align-items: center;
+
         }
     }
 }
-@media screen and (max-width: 1330px) {
+
+
+@media screen and (max-width: 1270px) {
     main {
         .mainimg {
             p {
-                animation: none;
+                top: 40%;
+                font-size: 4em;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1190px) {
+    main {
+        .mainimg {
+            
+            p {
                 top: 30%;
                 font-size: 4em;
-                &:after {
-                    font-size: 0.5em;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 1060px) {
-    main {
-        .mainimg {
-            p {
                 animation: none;
-                top: 30%;
-                font-size: 3.5em;
-                &:after {
-                    font-size: 0.5em;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 930px) {
-    main {
-        .mainimg {
-            p {
-                animation: none;
-                top: 15%;
-                font-size: 3em;
-                &:after {
-                    font-size: 0.8em;
-                }
             }
         }
     }
@@ -97,12 +132,17 @@ main{
             display: flex;
             justify-content: center;
             align-items: center;
-            p {
-                text-align: center;
-                font-size: 2em;
-                font-weight: 600;
-                
+            .ctitle {
+                p {
+                    text-align: center;
+                    font-size: 2em;
+                    font-weight: 600;
+                    &:before {
+                        width: 100%;
+                    }
+                }    
             }
+
         }
         }
 }
