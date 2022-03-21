@@ -1,0 +1,13 @@
+main.main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    div.content {
+        width: 70%;
+        min-height: 50vh;
+        background-color: rgb(207, 207, 207);
+    }
+}
+

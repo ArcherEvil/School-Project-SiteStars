@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAA,KAAK,CAAC;EACN,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,KAAK;CAMpB;;AAXD,AAMI,IANA,AAAA,KAAK,CAML,GAAG,AAAA,QAAQ,CAAC;EACR,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,IAAI;EAChB,gBAAgB,EAAE,OAAkB;CACvC",
+    "sources": [
+        "Fruits.module.scss"
+    ],
+    "names": [],
+    "file": "Fruits.module.css"
+}

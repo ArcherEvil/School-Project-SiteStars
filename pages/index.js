@@ -10,6 +10,8 @@ import 'aos/dist/aos.css'
 
 
 export default function Home({ data }) {
+
+  console.log(data)
   useEffect(() => {
     Aos.init({duration : 1000})
   }, [])
@@ -27,7 +29,7 @@ export default function Home({ data }) {
           <p>Enjoy our Menu!</p>
         </div>
         <div className={styles.cardlist}>
-            {data.map((item) => (<Card name={item.Name} img={item.Url}/>))}
+            {data.map((item) => (<Card key={item} name={item.Name} img={item.Url}/>))}
         </div>
       </div>
     </main>
