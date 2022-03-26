@@ -5,10 +5,9 @@ import Head from 'next/head'
 import unidecode from 'unidecode'
 import Image from 'next/image'
 import 'aos/dist/aos.css'
-const search = ({ data }) => {
+const Search = ({ data }) => {
     const router = useRouter();
     const fruit = router.query.name
-    console.log(fruit)
     let results = []
     for (var i = 0; i < data.length; i++) {
         if (unidecode(data[i].Name.toLowerCase()).includes(fruit) && !results.includes(data[i])) {
@@ -16,7 +15,6 @@ const search = ({ data }) => {
         }
     }
 
-    console.log(results)
 
     if (results.length != 0) {
         return (
@@ -68,4 +66,4 @@ export const getStaticProps = async () => {
     }
   }
 
-export default search
+export default Search
