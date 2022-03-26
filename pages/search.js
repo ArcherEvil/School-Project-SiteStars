@@ -7,7 +7,7 @@ import Image from 'next/image'
 import 'aos/dist/aos.css'
 const Search = ({ data }) => {
     const router = useRouter();
-    const fruit = router.query.name
+    const fruit = router.query.name.toLowerCase()
     let results = []
     for (var i = 0; i < data.length; i++) {
         if (unidecode(data[i].Name.toLowerCase()).includes(fruit) && !results.includes(data[i])) {
