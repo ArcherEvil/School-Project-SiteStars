@@ -19,7 +19,7 @@ export default function Home({ data }) {
       <main>
       <div className={styles.mainimg}>
         <div className={styles.image}>
-          <Image src='/mainimg.png'  width={3668} height={1728}/>
+          <Image src={`/api/imagefetcher?url=${encodeURIComponent('https://i.imgur.com/XdlQDkR.png')}`}  width={3668} height={1728}/>
           <p>FruitsFlavours</p>
         </div>
       </div>
