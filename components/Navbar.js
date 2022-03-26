@@ -27,7 +27,7 @@ const Navbar = () => {
       onKeyUp={onKeyUpValue.bind(this)}
       type='search' 
       placeholder='Search...'
-      onChange={e => { setInput(e.currentTarget.value); }}
+      onChange={e => { setInput(e.currentTarget.value.toLowerCase()); }}
       />
       <button onClick={() => {Search()}}>
       <Image src='/searchnav.png' width='40px' height='40px'/>
