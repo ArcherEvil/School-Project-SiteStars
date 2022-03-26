@@ -5,7 +5,6 @@ import scard from '../styles/Home/Card.module.css'
 import { useRouter } from 'next/router';
 import Aos from 'aos';
 import { useEffect } from 'react'
-
 import 'aos/dist/aos.css'
 
 
@@ -37,7 +36,6 @@ export default function Home({ data }) {
 }
 
 const Card = ({name, img}) => {
-
   const router = useRouter();
   const Link = () => {
     router.push('/' + name)
@@ -56,6 +54,7 @@ const Card = ({name, img}) => {
 export const getStaticProps = async () => {
   const res = await fetch('https://fruits-flavours-api.herokuapp.com')
   const data = await res.json()
+
 
   return {
     props: {

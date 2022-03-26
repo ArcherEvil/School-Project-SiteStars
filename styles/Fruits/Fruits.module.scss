@@ -2,12 +2,113 @@ main.main {
     width: 100vw;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    div.content {
+    .content {
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        .img {
+            display: block;
+            justify-content: center;
+            border-radius: 100px 100px 100px 100px;
+            overflow: hidden;
+            margin: 0;
+            margin-top: 30px;
+            width: 25%;
+        }
         width: 70%;
         min-height: 50vh;
-        background-color: rgb(207, 207, 207);
+        border-radius: 47px;
+        background: #ffffff;
+        box-shadow:  27px 27px 54px #bebebe,
+             -27px -27px 54px #ffffff;
+             .name {
+                 margin: 0;
+                 margin-top: 20px;
+                p {
+                    position: relative;
+                    text-align: center;
+                    display: inline-block;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    width: 100%;
+                    font-size: 3em;
+                    margin: 0;
+                    font-weight: 600;
+                    &:hover {
+                        &:before {
+                            width: 100%;
+                        }
+                    }
+                    &:before {
+                        content: attr(name);
+                        position: absolute;
+                        display: inline-block;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        width: 0%;
+                        height: 100%;
+                        transition: width 400ms ease-out;
+                        background-color: black;
+                        top: 0;
+                        left: 0;
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+        p {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        h6 {
+            width: 80%;
+            text-align: justify;
+            text-justify: inter-word;
+            font-weight: 500;
+            font-size: 1.2rem;
+            color: gray;
+
+        }
     }
 }
 
+@media screen and (max-width: 1000px) {
+    main.main {
+        .content {
+            width: 90%;
+            min-height: 50vh;
+            border-radius: 47px;
+            background: #ffffff;
+            box-shadow:  27px 27px 54px #bebebe,
+                 -27px -27px 54px #ffffff;
+            .img {
+                width: 70%;
+            }
+            .name {
+                p {
+                    text-align: center;
+                    font-size: 2em;
+                    font-weight: 600;
+                    &:hover {
+                        &:before {
+                            width: 0%;
+                        }
+                    }
+                    &:before {
+                        width: 0%;
+                    }
+                }
+            }
+            h6 {
+                font-size: 0.9rem;
+            }    
+        }
+    }    
+
+    }

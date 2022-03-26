@@ -1,13 +1,31 @@
 import { useRouter } from "next/router"
 import styles from '../styles/Fruits/Fruits.module.css'
+import Image from 'next/image'
+import 'aos/dist/aos.css'
+import Aos from 'aos';
+import { useEffect } from 'react'
+import Head from 'next/head'
 
 const Fruit = ({ fruit }) => {
   console.log(fruit)
-   
+  useEffect(() => {
+    Aos.init({duration : 1000})
+  }, [])
   return (
     <main className={styles.main}>
-      <div className={styles.content}>
-
+        <Head>
+        <title>{fruit.Name} - FruitsFlavours</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <div data-aos='fade-up' className={styles.content}>
+        <div className={styles.img}>  
+        <Image layout="responsive" src={`/api/imagefetcher?url=${encodeURIComponent(fruit.Url)}`}  width={300} height={300}/>
+        </div>
+        <div className={styles.name}>
+        <p name={fruit.Name}>{fruit.Name}</p>
+        </div>
+      <p>{fruit.Cientific}</p>
+      <h6>{fruit.Description}</h6>
       </div>
     </main>
   )

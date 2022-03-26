@@ -16,7 +16,7 @@ nav.Navbar {
   background-color: #181818;
 }
 
-nav.Navbar p {
+nav.Navbar a {
   outline: none;
   border: none;
   background: none;
@@ -26,7 +26,8 @@ nav.Navbar p {
   font-weight: 700;
 }
 
-nav.Navbar p:hover {
+nav.Navbar a:hover {
+  cursor: pointer;
   text-decoration: underline;
 }
 
@@ -100,7 +101,7 @@ nav.Navbar div.Searchbar button:active img {
 }
 
 @media screen and (max-width: 700px) {
-  nav.Navbar p {
+  nav.Navbar a {
     font-size: 2rem;
   }
 }
@@ -124,7 +125,7 @@ nav.Navbar div.Searchbar button:active img {
   nav.Navbar {
     height: 20%;
   }
-  nav.Navbar p {
+  nav.Navbar a {
     font-size: 1.2rem;
   }
   nav.Navbar div.Searchbar {
@@ -134,7 +135,7 @@ nav.Navbar div.Searchbar button:active img {
 }
 
 @media screen and (max-width: 500px) {
-  nav.Navbar p {
+  nav.Navbar a {
     font-size: 1.2rem;
   }
   nav.Navbar div.Searchbar {
