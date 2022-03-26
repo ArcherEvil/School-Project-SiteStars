@@ -13,13 +13,19 @@ const Navbar = () => {
   const Search = () => {
     router.push('/search?name=' + Input)
   }
+  const onKeyUpValue = (event) => {
+    if (event.keyCode === 13) {
+      router.push('/search?name=' + Input)
+    }
+  }
 
   return (
     <nav className={styles.Navbar}>
     <a onClick={() => {Link()}} id="title">FruitsFlavours</a>
     <div className={styles.Searchbar}>
-      <input 
-      type='text' 
+      <input
+      onKeyUp={onKeyUpValue.bind(this)}
+      type='search' 
       placeholder='Search...'
       onChange={e => { setInput(e.currentTarget.value); }}
       />
