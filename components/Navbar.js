@@ -11,11 +11,11 @@ const Navbar = () => {
 
   const [Input, setInput] = useState('');
   const Search = () => {
-    router.push('/search?name=' + Input)
+    router.push('/search?name=' + Input.toLowerCase())
   }
   const onKeyUpValue = (event) => {
     if (event.keyCode === 13) {
-      router.push('/search?name=' + Input)
+      router.push('/search?name=' + Input.toLowerCase())
     }
   }
 
