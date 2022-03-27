@@ -12,13 +12,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-transition: -webkit-transform ease-out 200ms;
   transition: -webkit-transform ease-out 200ms;
   transition: transform ease-out 200ms;
   transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background: #000000;
   width: 18%;
   min-width: 250px;
@@ -42,7 +42,7 @@
 
 .card .img {
   display: block;
-  border-radius: 10px;
+  border-radius: 10px !important;
   overflow: hidden;
   margin: 0;
   padding: 0;

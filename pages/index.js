@@ -2,18 +2,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home/Home.module.css'
 import scard from '../styles/Home/Card.module.css'
-import { useRouter } from 'next/router';
+import { useRouter} from 'next/router';
 import Aos from 'aos';
 import { useEffect } from 'react'
 import 'aos/dist/aos.css'
 import mainimg from '../public/Mainimg.png'
-
+import introduction1 from '../public/introduction1.jpg.png'
 
 export default function Home({ data }) {
 
   console.log(data)
   useEffect(() => {
-    Aos.init({duration : 1000})
+    Aos.init({duration : 2000})
   }, [])
   
   return (
@@ -24,6 +24,10 @@ export default function Home({ data }) {
           <p>FruitsFlavours</p>
         </div>
       </div>
+      <div className={styles.presentation}>
+        <h2 data-aos='slide-up' >As frutas constituem uma parte fundamental numa alimentação saudável e devem ser consumidas todos os dias. São ricas em vitaminas, minerais, diferentes fibras alimentares, compostos protetores e antioxidantes.</h2>
+      </div>
+
       <div data-aos='fade-up' className={styles.content}>
         <div   className={styles.ctitle}>
           <p>Enjoy our Menu!</p>

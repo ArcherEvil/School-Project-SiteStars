@@ -8,8 +8,8 @@ $border-radius : 10px;
         border-radius: $border-radius;
         flex-wrap: wrap;
         flex-direction: column;
-        transition: transform ease-out 200ms;
         align-items: center;
+        transition: transform ease-out 200ms;
         background: #000000;
         width: 18%;
         min-width: 250px;
@@ -24,10 +24,11 @@ $border-radius : 10px;
         }
         .img {
             display: block;
-            border-radius: 10px;
+            border-radius: 10px !important;
             overflow: hidden;
             margin: 0;
             padding: 0;
+            
             width: 100%;
         }
         p {

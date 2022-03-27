@@ -44,6 +44,33 @@ main .mainimg p:after {
   content: 'Vem saborear o melhor de São Tomé e Príncipe';
 }
 
+main .presentation {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: auto;
+}
+
+main .presentation h2 {
+  width: 90%;
+  font-size: 2.5rem;
+  line-height: 2;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+}
+
 main .content {
   margin-top: 100px;
   width: 100vw;
@@ -133,6 +160,9 @@ main .content .cardlist {
   }
   main .mainimg .image {
     display: none;
+  }
+  main .presentation h2 {
+    font-size: 1rem;
   }
   main .content {
     margin-top: 100px;

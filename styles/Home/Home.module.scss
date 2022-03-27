@@ -35,6 +35,24 @@ main{
             }
         }
     }
+
+    .presentation {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+            h2 {
+                width: 90%;
+                font-size: 2.5rem;
+                line-height: 2;
+                font-weight: 500;
+                font-family: 'Courier New', Courier, monospace;
+                text-align: justify;
+            }
+        }
     .content {
         margin-top: 100px;
         width: 100vw;
@@ -122,6 +140,11 @@ main{
                 }
         .image {
                 display: none;
+            }
+        }
+        .presentation {
+            h2 {
+                font-size: 1rem;
             }
         }   
         .content {
