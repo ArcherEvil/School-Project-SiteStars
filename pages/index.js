@@ -7,7 +7,7 @@ import Aos from 'aos';
 import { useEffect } from 'react'
 import 'aos/dist/aos.css'
 import mainimg from '../public/Mainimg.png'
-import introduction1 from '../public/introduction1.jpg.png'
+import stp from '../public/st.png'
 
 export default function Home({ data }) {
 
@@ -26,6 +26,12 @@ export default function Home({ data }) {
       </div>
       <div className={styles.presentation}>
         <h2 data-aos='slide-up' >As frutas constituem uma parte fundamental numa alimentação saudável e devem ser consumidas todos os dias. São ricas em vitaminas, minerais, diferentes fibras alimentares, compostos protetores e antioxidantes.</h2>
+        <div data-aos="fade-up" data-aos-duration="1000"  className={styles.Stp}> 
+          <div className={styles.stimg}>
+            <Image src={stp} />
+          </div>
+          <h4>São Tomé e Príncipe é um verdadeiro paraíso onde encontramos as mais variadas e deliciosas frutas ricas em nutrientes e todos os compostos importantes que torna a nossa vida mais saudável e a nossa dieta alimentar mais equilibrada e interessante.</h4>
+        </div>
       </div>
 
       <div data-aos='fade-up' className={styles.content}>
@@ -68,3 +74,4 @@ export const getStaticProps = async () => {
     revalidate : 60
   }
 }
+

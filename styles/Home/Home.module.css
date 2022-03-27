@@ -71,6 +71,35 @@ main .presentation h2 {
   text-align: justify;
 }
 
+main .presentation .Stp {
+  width: 95vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .presentation .Stp h4 {
+  width: 50%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+main .presentation .Stp .stimg {
+  margin-top: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  width: 35%;
+}
+
 main .content {
   margin-top: 100px;
   width: 100vw;
@@ -163,6 +192,19 @@ main .content .cardlist {
   }
   main .presentation h2 {
     font-size: 1rem;
+  }
+  main .presentation .Stp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .presentation .Stp h4 {
+    width: 90%;
+    font-size: 1rem;
+  }
+  main .presentation .Stp .stimg {
+    width: 60%;
   }
   main .content {
     margin-top: 100px;
