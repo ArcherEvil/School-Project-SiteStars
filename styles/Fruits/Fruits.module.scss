@@ -75,20 +75,25 @@ main.main {
             color: gray;
 
         }
+        .table {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            padding: 40px;
+        }
     }
 }
 
 @media screen and (max-width: 1000px) {
     main.main {
         .content {
-            width: 90%;
+            width: 100%;
             min-height: 50vh;
             border-radius: 47px;
-            background: #ffffff;
-            box-shadow:  27px 27px 54px #bebebe,
-                 -27px -27px 54px #ffffff;
+            background: none;
+            box-shadow:  none;
             .img {
-                width: 70%;
+                width: 60%;
             }
             .name {
                 p {
@@ -107,7 +112,11 @@ main.main {
             }
             h6 {
                 font-size: 0.9rem;
-            }    
+            }
+            
+            // .table {
+            //     flex-direction: column;
+            // }
         }
     }    
 

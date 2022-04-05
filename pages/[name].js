@@ -5,9 +5,10 @@ import 'aos/dist/aos.css'
 import Aos from 'aos';
 import { useEffect } from 'react'
 import Head from 'next/head'
+import tablestyles from '../styles/Fruits/Table.module.css'
 
 const Fruit = ({ fruit }) => {
-  console.log(fruit)
+  
   useEffect(() => {
     Aos.init({duration : 1000})
   }, [])
@@ -25,6 +26,21 @@ const Fruit = ({ fruit }) => {
         <p name={fruit.Name}>{fruit.Name}</p>
         </div>
       <p>{fruit.Cientific}</p>
+      {fruit.hasOwnProperty("Nutricional") && 
+      <div className={styles.table}>
+          {Object.keys(fruit.Nutricional).map((name) => (<table className={tablestyles.contenttable} >
+            <thead>
+              <tr>
+                <th>{name}</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+                {Object.keys(fruit.Nutricional[name]).map((item) => (<tr><td>{item}</td><td>{fruit.Nutricional[name][item]}</td></tr>))}
+            </tbody>
+          </table>))}
+      </div>
+      }
       <h6>{fruit.Description}</h6>
       </div>
     </main>

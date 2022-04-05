@@ -35,7 +35,9 @@ const Search = ({ data }) => {
         )
     }
     return (
-        <>search</>
+        <div className={styles.noresults}>
+          <p>Sem Resultados</p>
+        </div>
     )
 }
 

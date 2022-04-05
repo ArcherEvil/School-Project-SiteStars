@@ -106,17 +106,27 @@ main.main .content h6 {
   color: gray;
 }
 
+main.main .content .table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 40px;
+}
+
 @media screen and (max-width: 1000px) {
   main.main .content {
-    width: 90%;
+    width: 100%;
     min-height: 50vh;
     border-radius: 47px;
-    background: #ffffff;
-    -webkit-box-shadow: 27px 27px 54px #bebebe, -27px -27px 54px #ffffff;
-            box-shadow: 27px 27px 54px #bebebe, -27px -27px 54px #ffffff;
+    background: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   main.main .content .img {
-    width: 70%;
+    width: 60%;
   }
   main.main .content .name p {
     text-align: center;
