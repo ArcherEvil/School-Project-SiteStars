@@ -7,7 +7,8 @@ main.main {
     align-items: center;
     min-height: 100vh;
     .content {
-        margin-top: 200px;
+        margin-top: 100px;
+        margin-bottom: 200px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -67,11 +68,13 @@ main.main {
             font-size: 1.5rem;
         }
         h6 {
+            margin: 0;
+            margin-bottom: 30px;
             width: 80%;
             text-align: justify;
             text-justify: inter-word;
             font-weight: 500;
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: gray;
 
         }
@@ -79,10 +82,13 @@ main.main {
             display: flex;
             width: 100%;
             justify-content: space-around;
+            
             padding: 40px;
         }
     }
 }
+
+
 
 @media screen and (max-width: 1000px) {
     main.main {
@@ -93,7 +99,7 @@ main.main {
             background: none;
             box-shadow:  none;
             .img {
-                width: 60%;
+                width: 30%;
             }
             .name {
                 p {
@@ -111,13 +117,25 @@ main.main {
                 }
             }
             h6 {
+                margin: 0;
                 font-size: 0.9rem;
             }
             
-            // .table {
-            //     flex-direction: column;
-            // }
+            .table {
+                align-items: center;
+                flex-direction: column;
+            }
         }
     }    
 
+}
+
+@media screen and (max-width: 500px) {
+    main.main {
+        .content {
+            .img {
+                width: 70%;
+            }
+        }
     }
+}
