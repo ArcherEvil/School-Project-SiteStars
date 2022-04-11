@@ -200,6 +200,9 @@ main .content .cardlist {
   main .presentation h2 {
     font-size: 1rem;
   }
+  main .presentation h3 {
+    font-size: 0.9rem;
+  }
   main .presentation .Stp {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
