@@ -160,6 +160,8 @@ main{
                 font-size: 1rem;
             }
             h3 {
+                margin: 0;
+                margin-top: 60px;
                 font-size: 0.9rem;
             }
             .Stp {
@@ -174,7 +176,7 @@ main{
             }
         }   
         .content {
-            margin-top: 100px;
+            margin-top: 10px;
             width: 100vw;
             height: 100%;
             display: flex;
