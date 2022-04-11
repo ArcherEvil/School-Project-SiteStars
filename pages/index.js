@@ -1,13 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home/Home.module.css'
-import scard from '../styles/Home/Card.module.css'
+import Image from 'next/image';
+import styles from '../styles/Home/Home.module.css';
+import scard from '../styles/Home/Card.module.css';
 import { useRouter} from 'next/router';
 import Aos from 'aos';
-import { useEffect } from 'react'
-import 'aos/dist/aos.css'
-import mainimg from '../public/Mainimg.png'
-import stp from '../public/st.png'
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+import stp from '../public/st.png';
+import logo from '../public/logo.png';
+import { app, analytics } from '../components/FirebaseConfig';
 
 export default function Home({ data }) {
 
@@ -18,11 +18,12 @@ export default function Home({ data }) {
   
   return (
       <main>
-      <div className={styles.mainimg}>
-        <div className={styles.image}>
-          <Image src={mainimg}  width={3668} height={1728}/>
-          <p>FruitsFlavours</p>
+      <div data-aos="flip-right" data-aos-duration="1000"
+      className={styles.mainlogo}>
+        <div className={styles.logo}>
+        <Image src={logo} layout="responsive"/>
         </div>
+        <p>FruitsFlavours</p>
       </div>
       <div className={styles.presentation}>
         <h2 data-aos='slide-up' >As frutas constituem uma parte fundamental numa alimentação saudável e devem ser consumidas todos os dias. São ricas em vitaminas, minerais, diferentes fibras alimentares, compostos protetores e antioxidantes.</h2>
@@ -32,13 +33,13 @@ export default function Home({ data }) {
           </div>
           <h4>São Tomé e Príncipe é um verdadeiro paraíso onde encontramos as mais variadas e deliciosas frutas ricas em nutrientes e todos os compostos importantes que torna a nossa vida mais saudável e a nossa dieta alimentar mais equilibrada e interessante.</h4>
         </div>
+        <h3 data-aos='slide-up' data-aos-duration="1500">Neste site encontrarás alguns dos frutos mais conhecidos em São Tomé e Príncipe, bem como informações relevantes relacionadas a cada um deles.</h3>
       </div>
-
-      <div data-aos='fade-up' className={styles.content}>
+      <div id='content'  data-aos='fade-up' className={styles.content}>
         <div   className={styles.ctitle}>
           <p>Enjoy our Menu!</p>
         </div>
-        <div className={styles.cardlist}>
+        <div  className={styles.cardlist}>
             {data.map((item) => (<Card key={item} name={item.Name} img={item.Url}/>))}
         </div>
       </div>

@@ -1,43 +1,36 @@
-
-/* Animations */
-
-@keyframes mainimg {
-    0% {
-        top: 100%;
-    }
-    100% {
-        top: 40%;
-    }
-  } 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 
 
 main{
-    .mainimg {
-        .image {
-            width: 100vw;
-            position: relative;
+    .mainlogo {
+        margin: 0;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 65vh;
+        width: 100vw;
+        .logo {
+            display: block;
+            width: 400px;
         }
         p {
-            color: white;
-            animation: mainimg 0.5s ease-out;
-            place-items: center;
-            position: absolute;
-            display: grid;
-            font-size: 5em;
-            width: 70%;
-            font-weight: 700;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            &:after {
-                font-size: 0.5em;
-                content: 'Vem saborear o melhor de São Tomé e Príncipe';
-            }
+            margin: 0;
+            padding: 0;
+            margin-top: 0px;
+            background: linear-gradient(to right, #58c883,
+                    #fef358, #16c163, #96bc0d);
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 4rem;
+            font-family: 'Roboto Slab', serif;
+            font-weight: 600;
+        
+
         }
     }
 
     .presentation {
-        margin-top: 100px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -46,7 +39,16 @@ main{
         height: auto;
             h2 {
                 width: 90%;
-                font-size: 2.5rem;
+                font-size: 2rem;
+                line-height: 2;
+                font-weight: 500;
+                font-family: 'Courier New', Courier, monospace;
+                text-align: justify;
+            }
+            h3 {
+                margin-top: 200px;
+                width: 90%;
+                font-size: 2rem;
                 line-height: 2;
                 font-weight: 500;
                 font-family: 'Courier New', Courier, monospace;
@@ -89,7 +91,6 @@ main{
                 width: 100%;
                 font-size: 4em;
                 font-weight: 600;
-                text-decoration: underline;
                 &:hover {
                     &:before {
                         width: 100%;
@@ -104,7 +105,6 @@ main{
                     width: 0%;
                     height: 100%;
                     transition: width 400ms ease-out;
-                    text-decoration: underline;
                     background-color: black;
                     top: 0;
                     left: 0;
@@ -125,40 +125,34 @@ main{
 }
 
 
-@media screen and (max-width: 1270px) {
-    main {
-        .mainimg {
-            p {
-                top: 40%;
-                font-size: 4em;
-            }
-        }
-    }
-}
-
-
-
-@media screen and (max-width: 1190px) {
-    main {
-        .mainimg {
-            
-            p {
-                top: 30%;
-                font-size: 4em;
-                animation: none;
-            }
-        }
-    }
-}
 
 @media screen and (max-width: 1000px) {
     main {
-        .mainimg {
+        .mainlogo {
+            margin: 0;
+            margin-top: 100px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 50vh;
+            width: 100vw;
+            .logo {
+                display: block;
+                width: 250px;
+            }
             p {
-                display: none;
-                }
-        .image {
-                display: none;
+                margin: 0;
+                padding: 0;
+                margin-top: 0px;
+                background: linear-gradient(to right, #58c883,
+                        #fef358, #16c163, #96bc0d);
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                font-size: 3rem;
+                font-family: 'Roboto Slab', serif;
+                font-weight: 600;
+            
+    
             }
         }
         .presentation {

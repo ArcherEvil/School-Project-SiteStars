@@ -1,51 +1,40 @@
-@charset "UTF-8";
-/* Animations */
-@-webkit-keyframes mainimg {
-  0% {
-    top: 100%;
-  }
-  100% {
-    top: 40%;
-  }
-}
-@keyframes mainimg {
-  0% {
-    top: 100%;
-  }
-  100% {
-    top: 40%;
-  }
-}
-
-main .mainimg .image {
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap");
+main .mainlogo {
+  margin: 0;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 65vh;
   width: 100vw;
-  position: relative;
 }
 
-main .mainimg p {
-  color: white;
-  -webkit-animation: mainimg 0.5s ease-out;
-          animation: mainimg 0.5s ease-out;
-  place-items: center;
-  position: absolute;
-  display: -ms-grid;
-  display: grid;
-  font-size: 5em;
-  width: 70%;
-  font-weight: 700;
-  top: 40%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+main .mainlogo .logo {
+  display: block;
+  width: 400px;
 }
 
-main .mainimg p:after {
-  font-size: 0.5em;
-  content: 'Vem saborear o melhor de São Tomé e Príncipe';
+main .mainlogo p {
+  margin: 0;
+  padding: 0;
+  margin-top: 0px;
+  background: -webkit-gradient(linear, left top, right top, from(#58c883), color-stop(#fef358), color-stop(#16c163), to(#96bc0d));
+  background: linear-gradient(to right, #58c883, #fef358, #16c163, #96bc0d);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 4rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 600;
 }
 
 main .presentation {
-  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,7 +53,17 @@ main .presentation {
 
 main .presentation h2 {
   width: 90%;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  line-height: 2;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+}
+
+main .presentation h3 {
+  margin-top: 200px;
+  width: 90%;
+  font-size: 2rem;
   line-height: 2;
   font-weight: 500;
   font-family: 'Courier New', Courier, monospace;
@@ -127,7 +126,6 @@ main .content .ctitle p {
   width: 100%;
   font-size: 4em;
   font-weight: 600;
-  text-decoration: underline;
 }
 
 main .content .ctitle p:hover:before {
@@ -144,7 +142,6 @@ main .content .ctitle p:before {
   height: 100%;
   -webkit-transition: width 400ms ease-out;
   transition: width 400ms ease-out;
-  text-decoration: underline;
   background-color: black;
   top: 0;
   left: 0;
@@ -167,28 +164,38 @@ main .content .cardlist {
           align-items: center;
 }
 
-@media screen and (max-width: 1270px) {
-  main .mainimg p {
-    top: 40%;
-    font-size: 4em;
-  }
-}
-
-@media screen and (max-width: 1190px) {
-  main .mainimg p {
-    top: 30%;
-    font-size: 4em;
-    -webkit-animation: none;
-            animation: none;
-  }
-}
-
 @media screen and (max-width: 1000px) {
-  main .mainimg p {
-    display: none;
+  main .mainlogo {
+    margin: 0;
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 50vh;
+    width: 100vw;
   }
-  main .mainimg .image {
-    display: none;
+  main .mainlogo .logo {
+    display: block;
+    width: 250px;
+  }
+  main .mainlogo p {
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    background: -webkit-gradient(linear, left top, right top, from(#58c883), color-stop(#fef358), color-stop(#16c163), to(#96bc0d));
+    background: linear-gradient(to right, #58c883, #fef358, #16c163, #96bc0d);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
   }
   main .presentation h2 {
     font-size: 1rem;

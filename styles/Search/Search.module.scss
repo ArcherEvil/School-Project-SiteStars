@@ -1,3 +1,15 @@
+.noresults {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    p {
+        font-size: 2rem;
+    }
+}
+
 main{
     .content {
         margin-top: 100px;

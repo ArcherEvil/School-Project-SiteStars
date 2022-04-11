@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
 main.main {
   width: 100vw;
   display: -webkit-box;
@@ -18,8 +19,38 @@ main.main {
   min-height: 100vh;
 }
 
+main.main button {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  color: white;
+  background: #323232;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  z-index: 2;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 20px;
+  -webkit-transition: -webkit-transform 200ms ease-out;
+  transition: -webkit-transform 200ms ease-out;
+  transition: transform 200ms ease-out;
+  transition: transform 200ms ease-out, -webkit-transform 200ms ease-out;
+}
+
+main.main button:hover {
+  background: black;
+}
+
+main.main button:active {
+  background: black;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  border-radius: 20px;
+}
+
 main.main .content {
-  margin-top: 200px;
+  margin-bottom: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,26 +128,54 @@ main.main .content p {
   font-size: 1.5rem;
 }
 
-main.main .content h6 {
+main.main .content h2 {
+  margin: 0;
+  margin-top: 30px;
   width: 80%;
   text-align: justify;
   text-justify: inter-word;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: gray;
 }
 
+main.main .content h6 {
+  margin: 0;
+  margin-bottom: 30px;
+  width: 80%;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: gray;
+}
+
+main.main .content .table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 40px;
+}
+
 @media screen and (max-width: 1000px) {
+  main.main button {
+    margin-bottom: 0px;
+    padding: 15px;
+    font-size: 1rem;
+  }
   main.main .content {
-    width: 90%;
+    width: 100%;
     min-height: 50vh;
     border-radius: 47px;
-    background: #ffffff;
-    -webkit-box-shadow: 27px 27px 54px #bebebe, -27px -27px 54px #ffffff;
-            box-shadow: 27px 27px 54px #bebebe, -27px -27px 54px #ffffff;
+    background: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   main.main .content .img {
-    width: 70%;
+    width: 30%;
   }
   main.main .content .name p {
     text-align: center;
@@ -130,7 +189,23 @@ main.main .content h6 {
     width: 0%;
   }
   main.main .content h6 {
+    margin: 0;
     font-size: 0.9rem;
+  }
+  main.main .content .table {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main.main .content .img {
+    width: 70%;
   }
 }
 /*# sourceMappingURL=Fruits.module.css.map */
