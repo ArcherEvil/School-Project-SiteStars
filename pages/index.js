@@ -7,7 +7,6 @@ import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import stp from '../public/st.png';
 import logo from '../public/logo.png';
-import { app, analytics } from '../components/FirebaseConfig';
 
 export default function Home({ data }) {
 
