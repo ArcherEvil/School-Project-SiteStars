@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
 main.main {
   width: 100vw;
   display: -webkit-box;
@@ -18,8 +19,37 @@ main.main {
   min-height: 100vh;
 }
 
-main.main .content {
+main.main button {
   margin-top: 100px;
+  margin-bottom: 25px;
+  color: white;
+  background: #323232;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  z-index: 2;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 20px;
+  -webkit-transition: -webkit-transform 200ms ease-out;
+  transition: -webkit-transform 200ms ease-out;
+  transition: transform 200ms ease-out;
+  transition: transform 200ms ease-out, -webkit-transform 200ms ease-out;
+}
+
+main.main button:hover {
+  background: black;
+}
+
+main.main button:active {
+  background: black;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  border-radius: 20px;
+}
+
+main.main .content {
   margin-bottom: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,6 +128,17 @@ main.main .content p {
   font-size: 1.5rem;
 }
 
+main.main .content h2 {
+  margin: 0;
+  margin-top: 30px;
+  width: 80%;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: gray;
+}
+
 main.main .content h6 {
   margin: 0;
   margin-bottom: 30px;
@@ -105,7 +146,7 @@ main.main .content h6 {
   text-align: justify;
   text-justify: inter-word;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: gray;
 }
 
@@ -120,6 +161,11 @@ main.main .content .table {
 }
 
 @media screen and (max-width: 1000px) {
+  main.main button {
+    margin-bottom: 0px;
+    padding: 15px;
+    font-size: 1rem;
+  }
   main.main .content {
     width: 100%;
     min-height: 50vh;

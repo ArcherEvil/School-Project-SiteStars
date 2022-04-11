@@ -12,12 +12,17 @@ const Fruit = ({ fruit }) => {
   useEffect(() => {
     Aos.init({duration : 1000})
   }, [])
+  
+  const router = useRouter();
+  
+
   return (
     <main className={styles.main}>
         <Head>
         <title>{fruit.Name} - FruitsFlavours</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
+      <button onClick={() => {router.push("/#content")}}>Go Back</button>
       <div data-aos='fade-up' className={styles.content}>
         <div className={styles.img}>  
         <Image layout="responsive" src={`/api/imagefetcher?url=${encodeURIComponent(fruit.Url)}`}  width={300} height={300}/>
@@ -26,9 +31,10 @@ const Fruit = ({ fruit }) => {
         <p name={fruit.Name}>{fruit.Name}</p>
         </div>
       <p>{fruit.Cientific}</p>
+      <h2>{fruit['First Sentence']}</h2>
       {fruit.hasOwnProperty("Nutricional") && 
       <div className={styles.table}>
-          {Object.keys(fruit.Nutricional).map((name) => (<table className={tablestyles.contenttable} >
+          {Object.keys(fruit.Nutricional).map((name) => (<table key={name} className={tablestyles.contenttable} >
             <thead>
               <tr>
                 <th>{name}</th>
@@ -36,7 +42,7 @@ const Fruit = ({ fruit }) => {
               </tr>
             </thead>
             <tbody>
-                {Object.keys(fruit.Nutricional[name]).map((item) => (<tr><td>{item}</td><td>{fruit.Nutricional[name][item]}</td></tr>))}
+                {Object.keys(fruit.Nutricional[name]).map((item) => (<tr key={item} ><td>{item}</td><td>{fruit.Nutricional[name][item]}</td></tr>))}
             </tbody>
           </table>))}
       </div>
@@ -74,6 +80,6 @@ export const getStaticPaths = async () => {
   const paths = fruits.map(fruit => ({params: {name: fruit.toString()}}))
   return {
     paths,
-    fallback: false
+    fallback: false,
   }
 }

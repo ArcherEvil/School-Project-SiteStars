@@ -60,6 +60,16 @@ main .presentation h2 {
   text-align: justify;
 }
 
+main .presentation h3 {
+  margin-top: 200px;
+  width: 90%;
+  font-size: 2rem;
+  line-height: 2;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+}
+
 main .presentation .Stp {
   width: 95vw;
   display: -webkit-box;
