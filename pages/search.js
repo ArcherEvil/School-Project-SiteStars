@@ -14,6 +14,9 @@ const Search = ({ data }) => {
         if (unidecode(data[i].Name.toLowerCase()).includes(fruit) && !results.includes(data[i])) {
             results.push(data[i])
         }
+        else if (data[i].Name.toLowerCase().includes(fruit) && !results.includes(data[i])) {
+          results.push(data[i])
+      }
     }
 
 
