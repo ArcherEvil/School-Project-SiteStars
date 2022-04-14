@@ -5,6 +5,7 @@ import Head from 'next/head'
 import unidecode from 'unidecode'
 import Image from 'next/image'
 import 'aos/dist/aos.css'
+
 const Search = ({ data }) => {
     const router = useRouter();
     let fruit = router.query.name
