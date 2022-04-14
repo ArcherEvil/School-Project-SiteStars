@@ -1,10 +1,12 @@
 $bg : #181818;
 $bradius : 10px;
 $bg-btn : rgb(240, 240, 240);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
 
 @mixin center {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -17,9 +19,36 @@ nav.Navbar {
     width: 100%;
     height: 10%;
     background-color: $bg;
+    div.navcontainer {
+        display: flex;
+        margin-right: 20px;
+        select {
+                padding: 0px 20px 0px 20px;
+                border: 1px solid rgb(71, 71, 71);
+                outline: none;
+                color: white;
+                border-radius: 20px;
+                font-weight: 800;
+                font-family: 'Ubuntu', sans-serif;
+                font-size: 1.2rem;
+                background-color: #2e2e2e;
+                cursor: pointer;
+                option {
+                    cursor: pointer;
+
+                }
+                &:hover {
+                    background-color: #3f3f3f;
+                    
+                }
+                
+            }
+    }
     a {
+        margin-left: 20px;
         outline: none;
         border: none;
+        z-index: 100;
         background: none;
         text-decoration: none;
         color: invert($bg);
@@ -33,6 +62,7 @@ nav.Navbar {
     div.Searchbar {
         border-radius: $bradius;
         height: 50px;
+        margin-right: 50px;
         &:hover{
             input{
                 padding: 1.1em;
@@ -87,6 +117,7 @@ nav.Navbar {
 
 @media screen and (max-width: 700px) {
     nav.Navbar {
+        justify-content: space-around;
         a {
             font-size : 2rem;
         }
@@ -95,11 +126,16 @@ nav.Navbar {
 
 @media screen and (max-width: 1000px) {
     nav.Navbar {
+        select {
+            transform: scale(0.8);
+            margin: 0;
+            padding: 0;
+        }
         div.Searchbar {
             transform: scale(0.9);
             input {
                 padding: 1.1em;
-                width: 200px;
+                width: 150px;
             }
             button {
                 border-radius: 0px $bradius $bradius 0px;
@@ -123,18 +159,24 @@ nav.Navbar {
 @media screen and (max-width: 500px) {
     nav.Navbar {
         a {
+            margin: 0;
             font-size : 1.2rem;
+            z-index: 10;
         }
         div.Searchbar {
+            margin: 0;
             transform: scale(0.8);
             input {
                 padding: 1.1em;
-                width: 150px;
+                width: 100px;
             }
             button {
                 border-radius: 0px $bradius $bradius 0px;
                 background-color: $bg-btn;
             }
+        }
+        select {
+            margin: 0;
         }
     }
 }

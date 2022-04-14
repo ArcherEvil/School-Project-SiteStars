@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
 nav.Navbar {
   z-index: 4;
   position: fixed;
@@ -6,8 +7,9 @@ nav.Navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -16,9 +18,39 @@ nav.Navbar {
   background-color: #181818;
 }
 
+nav.Navbar div.navcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+}
+
+nav.Navbar div.navcontainer select {
+  padding: 0px 20px 0px 20px;
+  border: 1px solid #474747;
+  outline: none;
+  color: white;
+  border-radius: 20px;
+  font-weight: 800;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  background-color: #2e2e2e;
+  cursor: pointer;
+}
+
+nav.Navbar div.navcontainer select option {
+  cursor: pointer;
+}
+
+nav.Navbar div.navcontainer select:hover {
+  background-color: #3f3f3f;
+}
+
 nav.Navbar a {
+  margin-left: 20px;
   outline: none;
   border: none;
+  z-index: 100;
   background: none;
   text-decoration: none;
   color: #e7e7e7;
@@ -34,12 +66,14 @@ nav.Navbar a:hover {
 nav.Navbar div.Searchbar {
   border-radius: 10px;
   height: 50px;
+  margin-right: 50px;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -101,19 +135,29 @@ nav.Navbar div.Searchbar button:active img {
 }
 
 @media screen and (max-width: 700px) {
+  nav.Navbar {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
   nav.Navbar a {
     font-size: 2rem;
   }
 }
 
 @media screen and (max-width: 1000px) {
+  nav.Navbar select {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    margin: 0;
+    padding: 0;
+  }
   nav.Navbar div.Searchbar {
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
   }
   nav.Navbar div.Searchbar input {
     padding: 1.1em;
-    width: 200px;
+    width: 150px;
   }
   nav.Navbar div.Searchbar button {
     border-radius: 0px 10px 10px 0px;
@@ -136,19 +180,25 @@ nav.Navbar div.Searchbar button:active img {
 
 @media screen and (max-width: 500px) {
   nav.Navbar a {
+    margin: 0;
     font-size: 1.2rem;
+    z-index: 10;
   }
   nav.Navbar div.Searchbar {
+    margin: 0;
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
   nav.Navbar div.Searchbar input {
     padding: 1.1em;
-    width: 150px;
+    width: 100px;
   }
   nav.Navbar div.Searchbar button {
     border-radius: 0px 10px 10px 0px;
     background-color: #f0f0f0;
+  }
+  nav.Navbar select {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=Navbar.module.css.map */

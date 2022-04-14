@@ -5,6 +5,7 @@ import Head from 'next/head'
 import unidecode from 'unidecode'
 import Image from 'next/image'
 import 'aos/dist/aos.css'
+import { useState, useEffect } from 'react';
 
 const Search = ({ data }) => {
     const router = useRouter();
@@ -20,16 +21,33 @@ const Search = ({ data }) => {
       }
     }
 
+    const [lang, setLang] = useState(false)
+  useEffect(() => {
+    const local = localStorage.getItem('lang')
+
+    if (local == 'Portuguese/Português') {
+      setLang(false)
+    }
+    else if (local == 'English') {
+      setLang(true)
+    }
+  }, [])
 
     if (results.length != 0) {
         return (
         <main>
         <Head>
+        {lang ? 
             <title>Search Results for {fruit} - Fruits Flavours</title>
+            :<title>Resultados da pesquisa para {fruit} - Fruits Flavours</title>
+        }
         </Head>
         <div className={styles.content}>
-            <div className={styles.ctitle}>    
+            <div className={styles.ctitle}>   
+            {lang ? 
             <p text={'Search Results for ' + fruit}>Search Results for {fruit}</p>
+            :<p text={'Resultados da pesquisa para ' + fruit}>Resultados da pesquisa para {fruit}</p>
+            } 
             </div>
             <div className={styles.cardlist}>
             {results.map((item) => (<Card key={item} name={item.Name} img={item.Url}/>))}
