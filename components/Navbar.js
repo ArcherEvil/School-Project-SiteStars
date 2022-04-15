@@ -1,13 +1,27 @@
 import styles from '../styles/Navbar/Navbar.module.css'
 import Image from 'next/image'
 import { useRouter } from 'next/router';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import pt from '../public/Lang/pt.png'
+import uk from '../public/Lang/uk.webp'
 
 const Navbar = () => {
   const router = useRouter();
   const Link = () => {
     router.push('/')
   }
+
+  const [lang, setLang] = useState(false)
+  useEffect(() => {
+    const local = localStorage.getItem('lang')
+
+    if (local == 'Portuguese/Português') {
+      setLang(false)
+    }
+    else if (local == 'English') {
+      setLang(true)
+    }
+  }, [])
 
   const [Input, setInput] = useState('');
   const Search = () => {
@@ -19,9 +33,23 @@ const Navbar = () => {
     }
   }
 
+  const Lang = (lang) => {
+    if (lang == 'PT') {
+
+      localStorage.setItem('lang', 'Portuguese/Português')
+      router.reload(window.location.pathname)
+    }
+    else if (lang == 'EN') {
+
+      localStorage.setItem('lang', 'English')
+      router.reload(window.location.pathname)
+    }
+  }
+
   return (
     <nav className={styles.Navbar}>
     <a onClick={() => {Link()}} id="title">FruitsFlavours</a>
+    <div className={styles.navcontainer}>
     <div className={styles.Searchbar}>
       {lang ? 
       <input
@@ -40,6 +68,17 @@ const Navbar = () => {
       <button onClick={() => {Search()}}>
       <Image src='/searchnav.png' width='40px' height='40px'/>
       </button>
+    </div>
+    {lang ? 
+      <select onChange={e => {Lang(e.target.value)}}>
+        <option>EN</option>
+        <option>PT</option>
+      </select>
+    : <select onChange={e => {Lang(e.target.value)}}>
+        <option>PT</option>
+        <option>EN</option>
+      </select>
+      }
     </div>
 </nav>
   )

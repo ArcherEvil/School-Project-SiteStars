@@ -41,7 +41,7 @@ main .content .ctitle p {
   white-space: nowrap;
   overflow: hidden;
   width: 100%;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 600;
   text-decoration: underline;
 }
@@ -100,7 +100,7 @@ main .content .cardlist {
   }
   main .content .ctitle p {
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     font-weight: 600;
   }
   main .content .ctitle p:before {
