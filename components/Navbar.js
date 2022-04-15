@@ -23,12 +23,20 @@ const Navbar = () => {
     <nav className={styles.Navbar}>
     <a onClick={() => {Link()}} id="title">FruitsFlavours</a>
     <div className={styles.Searchbar}>
+      {lang ? 
       <input
       onKeyUp={onKeyUpValue.bind(this)}
       type='search' 
       placeholder='Search...'
       onChange={e => { setInput(e.currentTarget.value); }}
       />
+      :<input
+      onKeyUp={onKeyUpValue.bind(this)}
+      type='search' 
+      placeholder='Procurar...'
+      onChange={e => { setInput(e.currentTarget.value); }}
+      />
+      }
       <button onClick={() => {Search()}}>
       <Image src='/searchnav.png' width='40px' height='40px'/>
       </button>
