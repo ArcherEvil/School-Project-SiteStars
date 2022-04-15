@@ -97,7 +97,7 @@ main{
                     }
                 }
                 &:before {
-                    content: 'Enjoy our Menu!';
+                    content: attr(name);
                     position: absolute;
                     display: inline-block;
                     white-space: nowrap;
