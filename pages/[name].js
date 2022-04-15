@@ -3,15 +3,26 @@ import styles from '../styles/Fruits/Fruits.module.css'
 import Image from 'next/image'
 import 'aos/dist/aos.css'
 import Aos from 'aos';
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import tablestyles from '../styles/Fruits/Table.module.css'
 
+
 const Fruit = ({ fruit }) => {
   
+  const [lang, setLang] = useState(false)
   useEffect(() => {
-    Aos.init({duration : 1000})
+    Aos.init({duration : 2000})
+    const local = localStorage.getItem('lang')
+
+    if (local == 'Portuguese/Português') {
+      setLang(false)
+    }
+    else if (local == 'English') {
+      setLang(true)
+    }
   }, [])
+  
   
   const router = useRouter();
   
@@ -22,7 +33,10 @@ const Fruit = ({ fruit }) => {
         <title>{fruit.Name} - FruitsFlavours</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
+      {lang ?
       <button onClick={() => {router.push("/#content")}}>Go Back</button>
+      :<button onClick={() => {router.push("/#content")}}>Voltar</button>
+      }
       <div data-aos='fade-up' className={styles.content}>
         <div className={styles.img}>  
         <Image layout="responsive" src={`/api/imagefetcher?url=${encodeURIComponent(fruit.Url)}`}  width={300} height={300}/>

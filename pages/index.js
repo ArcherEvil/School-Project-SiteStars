@@ -36,7 +36,7 @@ export default function Home({ data }) {
       </div>
       <div className={styles.presentation}>
       {Lang ? 
-        <h2 data-aos='slide-up' >Fruits are a fundamental part of a healthy diet and should be consumed every day. They are rich in vitamins, minerals, different dietary fibers, protective compounds and antioxidants.</h2>
+        <h2 data-aos='slide-up' >Fruits are a fundamental part of our healthy diet and should be consumed every day. They are rich in vitamins, minerals, different dietary fibers, protective compounds and antioxidants.</h2>
       : <h2 data-aos='slide-up' >As frutas constituem uma parte fundamental numa alimentação saudável e devem ser consumidas todos os dias. São ricas em vitaminas, minerais, diferentes fibras alimentares, compostos protetores e antioxidantes.</h2>}
         <div data-aos="fade-up" data-aos-duration="1000"  className={styles.Stp}> 
           <div className={styles.stimg}>
@@ -54,7 +54,10 @@ export default function Home({ data }) {
       </div>
       <div id='content'  data-aos='fade-up' className={styles.content}>
         <div   className={styles.ctitle}>
-          <p>Enjoy our Menu!</p>
+        {Lang ? 
+          <p name='Enjoy our Menu!'>Enjoy our Menu!</p>
+          :<p name='Aproveite nosso Menu!'>Aproveite nosso Menu!</p>
+        }
         </div>
         <div  className={styles.cardlist}>
             {data.map((item) => (<Card key={item} name={item.Name} img={item.Url}/>))}
