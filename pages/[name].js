@@ -8,7 +8,8 @@ import Head from 'next/head'
 import tablestyles from '../styles/Fruits/Table.module.css'
 
 
-const Fruit = ({ fruit }) => {
+const Fruit = ({ fruitpt, fruiten }) => {
+  
   
   const [lang, setLang] = useState(false)
   useEffect(() => {
@@ -24,13 +25,17 @@ const Fruit = ({ fruit }) => {
   }, [])
   
   
+  
   const router = useRouter();
   
 
   return (
     <main className={styles.main}>
         <Head>
-        <title>{fruit.Name} - FruitsFlavours</title>
+        {lang ?
+        <title>{fruiten.Name} - FruitsFlavours</title>
+        :<title>{fruitpt.Name} - FruitsFlavours</title>
+        }
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       {lang ?
@@ -39,16 +44,30 @@ const Fruit = ({ fruit }) => {
       }
       <div data-aos='fade-up' className={styles.content}>
         <div className={styles.img}>  
-        <Image layout="responsive" src={`/api/imagefetcher?url=${encodeURIComponent(fruit.Url)}`}  width={300} height={300}/>
+        {lang ?
+        <Image layout="responsive" src={`/api/imagefetcher?url=${encodeURIComponent(fruiten.Url)}`}  width={300} height={300}/>
+        :<Image layout="responsive" src={`/api/imagefetcher?url=${encodeURIComponent(fruitpt.Url)}`}  width={300} height={300}/>
+        }
         </div>
         <div className={styles.name}>
-        <p name={fruit.Name}>{fruit.Name}</p>
+        {lang ? 
+        <p name={fruiten.Name}>{fruiten.Name}</p>
+        :<p name={fruitpt.Name}>{fruitpt.Name}</p>
+        }
         </div>
-      <p>{fruit.Cientific}</p>
-      <h2>{fruit['First Sentence']}</h2>
-      {fruit.hasOwnProperty("Nutricional") && 
+        {lang ?
+      <p>{fruiten.Cientific}</p>
+      :<p>{fruitpt.Cientific}</p>
+        }
+      {lang ?
+      <h2>{fruiten['First Sentence']}</h2>
+      :<h2>{fruitpt['First Sentence']}</h2>
+      }
+      {lang ?
+      <>
+      {fruiten.hasOwnProperty("Nutricional") && 
       <div className={styles.table}>
-          {Object.keys(fruit.Nutricional).map((name) => (<table key={name} className={tablestyles.contenttable} >
+          {Object.keys(fruiten.Nutricional).map((name) => (<table key={name} className={tablestyles.contenttable} >
             <thead>
               <tr>
                 <th>{name}</th>
@@ -56,12 +75,35 @@ const Fruit = ({ fruit }) => {
               </tr>
             </thead>
             <tbody>
-                {Object.keys(fruit.Nutricional[name]).map((item) => (<tr key={item} ><td>{item}</td><td>{fruit.Nutricional[name][item]}</td></tr>))}
+                {Object.keys(fruiten.Nutricional[name]).map((item) => (<tr key={item} ><td>{item}</td><td>{fruiten.Nutricional[name][item]}</td></tr>))}
             </tbody>
           </table>))}
       </div>
       }
-      <h6>{fruit.Description}</h6>
+      </>
+      : 
+      <>
+      {fruitpt.hasOwnProperty("Nutricional") && 
+      <div className={styles.table}>
+          {Object.keys(fruitpt.Nutricional).map((name) => (<table key={name} className={tablestyles.contenttable} >
+            <thead>
+              <tr>
+                <th>{name}</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+                {Object.keys(fruitpt.Nutricional[name]).map((item) => (<tr key={item} ><td>{item}</td><td>{fruitpt.Nutricional[name][item]}</td></tr>))}
+            </tbody>
+          </table>))}
+      </div>
+      }
+      </>
+      }
+      {lang ?
+      <h6>{fruiten.Description}</h6>
+      :<h6>{fruitpt.Description}</h6>
+      }
       </div>
     </main>
   )
@@ -71,17 +113,29 @@ export default Fruit
 
 export const getStaticProps = async (context) => {
   const res = await fetch('https://fruits-flavours-api.herokuapp.com')
-  const data = await res.json()
-  let fruit = []
-  for (var i = 0; i < data.length; i++) {
-    if (data[i].Name == context.params.name) {
-      fruit = data[i]
+  const fruits = await res.json()
+  
+  const fruitspt = fruits.pt
+  const fruitsen = fruits.en
+
+  let fruitpt = []
+  for (var i = 0; i < fruitspt.length; i++) {
+    if (fruitspt[i].Name == context.params.name) {
+      fruitpt = fruitspt[i]
+    }
+  }
+
+  let fruiten = []
+  for (var i = 0; i < fruitsen.length; i++) {
+    if (fruitspt[i].Name == context.params.name) {
+      fruiten = fruitsen[i]
     }
   }
 
   return {
     props: {
-        fruit
+        fruitpt,
+        fruiten
     },
     revalidate : 60
   }
@@ -90,7 +144,7 @@ export const getStaticProps = async (context) => {
 export const getStaticPaths = async () => {
   const res = await fetch('https://fruits-flavours-api.herokuapp.com')
   const data = await res.json()
-  const fruits = data.map(fruit => fruit.Name)
+  const fruits = data.pt.map(fruit => fruit.Name)
   const paths = fruits.map(fruit => ({params: {name: fruit.toString()}}))
   return {
     paths,

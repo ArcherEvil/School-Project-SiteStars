@@ -9,9 +9,8 @@ import stp from '../public/st.png';
 import logo from '../public/logo.png';
 
 
-export default function Home({ data }) {
+export default function Home({ datapt, dataen }) {
 
-  console.log(data)
   const [Lang, setLang] = useState(false)
   useEffect(() => {
     Aos.init({duration : 2000})
@@ -36,8 +35,8 @@ export default function Home({ data }) {
       </div>
       <div className={styles.presentation}>
       {Lang ? 
-        <h2 data-aos='slide-up' >Fruits are a fundamental part of our healthy diet and should be consumed every day. They are rich in vitamins, minerals, different dietary fibers, protective compounds and antioxidants.</h2>
-      : <h2 data-aos='slide-up' >As frutas constituem uma parte fundamental numa alimentação saudável e devem ser consumidas todos os dias. São ricas em vitaminas, minerais, diferentes fibras alimentares, compostos protetores e antioxidantes.</h2>}
+        <h2>Fruits are a fundamental part of our healthy diet and should be consumed every day. They are rich in vitamins, minerals, different dietary fibers, protective compounds and antioxidants.</h2>
+      : <h2>As frutas constituem uma parte fundamental numa alimentação saudável e devem ser consumidas todos os dias. São ricas em vitaminas, minerais, diferentes fibras alimentares, compostos protetores e antioxidantes.</h2>}
         <div data-aos="fade-up" data-aos-duration="1000"  className={styles.Stp}> 
           <div className={styles.stimg}>
             <Image src={stp} />
@@ -60,17 +59,24 @@ export default function Home({ data }) {
         }
         </div>
         <div  className={styles.cardlist}>
-            {data.map((item) => (<Card key={item} name={item.Name} img={item.Url}/>))}
+        {Lang ?
+        <>
+            {dataen.map((item) => (<Card key={item} name={item.Name} img={item.Url} id={item.ID} data={datapt}/>))}
+        </> 
+        :<>
+            {datapt.map((item) => (<Card key={item} name={item.Name} img={item.Url} id={item.ID} data={datapt}/>))}
+        </> 
+        }
         </div>
       </div>
     </main>
   )
 }
 
-const Card = ({name, img}) => {
+const Card = ({name, img, id, data}) => {
   const router = useRouter();
   const Link = () => {
-    router.push('/' + name)
+    router.push('/' + data[id].Name)
   }
   return (
     <button className={scard.card} onClick={() => {Link(name)}}>
@@ -87,10 +93,12 @@ export const getStaticProps = async () => {
   const res = await fetch('https://fruits-flavours-api.herokuapp.com')
   const data = await res.json()
 
-
+  const datapt = data.pt
+  const dataen = data.en
   return {
     props: {
-        data
+      datapt,
+      dataen
     },
     revalidate : 60
   }
