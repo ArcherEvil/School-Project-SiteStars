@@ -7,9 +7,12 @@ import { useEffect, useState } from 'react';
 import 'aos/dist/aos.css';
 import stp from '../public/st.png';
 import logo from '../public/logo.png';
+import data from '../data.json'
 
+export default function Home() {
 
-export default function Home({ datapt, dataen }) {
+  const datapt = data.pt
+  const dataen = data.en
 
   const [Lang, setLang] = useState(false)
   useEffect(() => {
@@ -89,18 +92,4 @@ const Card = ({name, img, id, data}) => {
 }
 
 
-export const getStaticProps = async () => {
-  const res = await fetch('https://fruits-flavours-api.herokuapp.com')
-  const data = await res.json()
-
-  const datapt = data.pt
-  const dataen = data.en
-  return {
-    props: {
-      datapt,
-      dataen
-    },
-    revalidate : 60
-  }
-}
 

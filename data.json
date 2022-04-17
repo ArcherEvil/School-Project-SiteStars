@@ -1,0 +1,582 @@
+{
+  "pt": [
+    {
+      "ID": 0,
+      "Name": "Jaca",
+      "Url": "https://i.imgur.com/NahKDUV.png",
+      "Cientific": "artocarpus heterophyllus",
+      "First Sentence": "Jaqueira conhecida cientificamente como artocarpus heterophyllus, é uma árvore tropical da qual o fruto é jaca. Árvore de folhagem persistente (perenifólia), com cerca de 20 metros de altura e com um tronco de 30 a 60 centímetros de diâmetro revestido por uma casca espessa.",
+      "Description": "Planta cauliflora, com as flores masculinas agrupada em espigas claviforme e as femininas em espigas compactas. Os frutos são de forma ovalada, nascem diretamente do tronco e dos galhos mais robusto e chegam a pesar em média 10Kg. A parte comestível da jaca são os frutículos (bagos) encontrados no interior do sincarpo ultrapassando normalmente uma centena e podem ser de duas variedades a dura, que produz frutos maiores, e a mole, em geral mais doce, o fruto é menor.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "5μg (1%)",
+          "Tiamina (B1)": "0,105mg (9%)",
+          "Riboflavina (B2)": "0,055mg (5%)",
+          "Niacina (B3)": "0,92mg (6%)",
+          "Ácido pantotênico (B5)": "0,235mg (5%)",
+          "Vitamina B6": "0,329mg (25%)",
+          "Vitamina C": "13,8mg (17%)",
+          "Vitamina E": "0,34mg (2%)",
+          "Folato (B9)": "24µg (6%)"
+        },
+        "Minerais": {
+          "Cálcio": "24mg (2%)",
+          "Ferro": "0,23mg (2%)",
+          "Magnésio": "29mg (8%)",
+          "Manganês": "0,043mg (2%)",
+          "Fosforo": "21mg (3%)",
+          "Zinco": "0,13mg (1%)",
+          "Potássio": "448mg (10%)"
+        }
+      }
+    },
+    {
+      "ID": 1,
+      "Name": "Banana pão",
+      "Url": "https://i.imgur.com/L6wuVip.png",
+      "Cientific": "Musa Acuminata",
+      "First Sentence": "A banana pão é uma pseudobaga da bananeira uma planta herbácea vivaz acaule da família musaceae e são atualmente cultivadas em praticamente todas as regiões tropicais do planeta.",
+      "Description": "O termo banana refere-se às frutas de polpa macia e doce que podem ser consumidas cruas, contudo, existem variedades de cultivo, de polpa mais rija e de casca mais firme designadas por bananas-pão ou banana da terra que são consumidas cozinhadas (assadas, cozida e frita), constituindo um alimento base das regiões tropicais, neste caso São Tomé e Príncipe. \n\n As bananas formam-se em cachos, semelhante ao das uvas, superior aos pseudocaules que nascem de um verdadeiro caule subterrâneo cuja longevidade chega a 15 anos ou mais. Da parte inferior do cacho da banana ainda imaturo, sai um pendão e, em seu extremo, destaca-se um cone de coloração e consistência diferenciada, que é a flor da bananeira. \n\nÉ de cor verde, quando imaturas, chegando a amarela quando madura. Um cacho tem normalmente vinte bananas e pode chegar a pesar de 30 a 50 kg. Seu formato é alongado, podendo, contudo, variar muito na sua forma a depender das variedades de cultivo. Depois de cortada a banana escurece-se muito rapidamente, devido a oxidação em contato com o ar.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Tiamina (B1)": "0,031mg (3%)",
+          "Riboflavina (B2)": "0,073mg (6%)",
+          "Niacina (B3)": "0,665mg (4%)",
+          "Ácido pantotênico (B5)": "0,334mg (7%)",
+          "Vitamina B6": "0,4mg (31%)",
+          "Vitamina C": "8,7mg (10%)",
+          "Colina": "9,8mg (2%)",
+          "Folato (B9)": "20µg (5%)"
+        },
+        "Minerais": {
+          "Ferro": "0,26mg (2%)",
+          "Magnésio": "27mg (8%)",
+          "Manganês": "0,27mg (13%)",
+          "Fosforo": "22mg (3%)",
+          "Potássio": "358mg (8%)",
+          "Sódio": "1mg (0%)",
+          "Zinco": "0,15mg (2%)"
+        }
+      }
+    },
+    {
+      "ID": 2,
+      "Name": "Fruta pão",
+      "Cientific": "Artocarpus altilis",
+      "Url": "https://i.imgur.com/zQQ4TgC.png",
+      "First Sentence": "Popularmente conhecida como fruteira cujo o fruto é fruta pão é uma árvore frutífera, aparentada com a jaca.",
+      "Description": "As frutas-pão dividem-se em duas variedades: a apyrena, conhecida por fruta-pão de massa, que não possui sementes, e a seminífera, conhecida por fruta-pão de caroço, que apresenta numerosas sementes comestíveis e polpa não comestível. A fruta-pão também é uma árvore ornamental, de grande porte e crescimento rápido, podendo alcançar 20 metros de altura. Longeva, vive cerca de 80 anos. Sua folhas são muito bonitas, grandes, perenes e profundamente lobadas. Se for machucada, exsuda um látex leitoso que tem aplicações artesanais, para calafetação e como cola. A fruta-pão é uma planta monoica, isto é, com os dois sexos na mesma planta e flores separadas, masculinas e femininas. Os frutos são grandes, redondos como melões, e chegam a pesar 3 quilogramas e de cor verde-amarelada.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "22µg (3%)",
+          "Tiamina (B1)": "0,11mg (10%)",
+          "Riboflavina (B2)": "0,03mg (3%)",
+          "Niacina (B3)": "0,9mg (6%)",
+          "Ácido pantotênico (B5)": "0,457mg (9%)",
+          "Vitamina B6": "0,1mg (8%)",
+          "Vitamina C": "9,8mg (35%)",
+          "Colina": "9,8mg (2%)",
+          "Folato (B9)": "14µg (4%)",
+          "Vitamina E": "0,1mg (1%)",
+          "Vitamina K": "0,5μg (0%)"
+        },
+        "Minerais": {
+          "Cálcio": "17mg (2%)",
+          "Ferro": "0,54mg (4%)",
+          "Magnésio": "25mg (7%)",
+          "Manganês": "0,06mg (3%)",
+          "Fosforo": "30mg (4%)",
+          "Potássio": "490mg (10%)",
+          "Sódio": "2mg (0%)",
+          "Zinco": "0,12mg (1%)"
+        }
+      }
+    },
+    {
+      "ID": 3,
+      "Name": "Safú",
+      "Url": "https://i.imgur.com/OXa9NR8.png",
+      "Cientific": "Dacryodes edulis",
+      "First Sentence": "Vulgarmente conhecido como safuzeiro é uma árvore de folha persistente que tem como fruto safú nativo tanto em São Tomé como Príncipe tem copa ampla, com folhas alternas, flores pequenas e frutos drupáceos comestíveis, de formato alongado e cor arroxeada na maturação.",
+      "Description": "Pode chegar até mais ou menos cerca 30 a 40 metros de altura com um tronco com 60 a 80 centímetros de diâmetro. Este alimento é também uma iguaria preferida dos papagaios, periquitos, e das outras árvores silvestres. A reprodução dessa árvore que pode ser considerada uma atração visual ocorre uma vez por ano entre os meses de janeiro a abril e recomendado o consumo neste período de tempo pois ainda não se desenvolveu uma técnica para a armazenarão do produto ao longo do ano.",
+      "Nutricional": {
+        "Valor Nutricional": {
+          "Vitamina A": "634,4mg",
+          "Vitamina C": "23,12mg",
+          "Proteínas": "13,54g",
+          "Carboidratos": "8,93g"
+        }
+      }
+    },
+    {
+      "ID": 4,
+      "Name": "Carambola",
+      "Url": "https://i.imgur.com/Wo931Ew.png",
+      "Cientific": "Averrhoa",
+      "Description": "De cor amarela vibrante, com um formato estrelado (em inglês, inclusive, é chamada de fruta estrela), Averrhoa vulgarmente conhecida como carambola fruto caramboleira é de sabor agridoce, com coloração variando do verde ao amarelo, dependendo do grau de maturação, também considerada uma fruta de quintal, pois seu cultivo não é feito em escala, sendo produzida essencialmente em sítios, quintais, granjas e pomares de fazendas.",
+      "First Sentence": "A Carambola riquíssima em vitamina A, C e uma boa fonte de fibras, mas também inspira cuidados para quem vive com doenças renais crônicas em controverso serve para combater diferentes febres.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "66µg (3%)",
+          "Tiamina (B1)": "0,014mg (1%)",
+          "Riboflavina (B2)": "0,016mg (1%)",
+          "Niacina (B3)": "0,367mg (2%)",
+          "Ácido pantotênico (B5)": "0,391mg (8%)",
+          "Vitamina B6": "0,017mg (1%)",
+          "Folato (B9)": "12µg (3%)",
+          "Colina": "7,6mg (2%)",
+          "Vitamina C": "34,4mg (41%)",
+          "Vitamina E": "0,15mg (1%)"
+        },
+        "Minerais": {
+          "Cálcio": "3mg (0%)",
+          "Ferro": "0,08mg (1%)",
+          "Magnésio": "10mg (3%)",
+          "Manganês": "0,037mg (2%)",
+          "Fosforo": "12mg (2%)",
+          "Potássio": "133mg (3%)",
+          "Sódio": "2mg (0%)",
+          "Zinco": "0,12mg (1%)"
+        }
+      }
+    },
+    {
+      "ID": 5,
+      "Name": "Goiaba",
+      "Url": "https://i.imgur.com/AnO5ObG.png",
+      "Cientific": "Psidium guajava",
+      "First Sentence": "Fruta tropical nascida da goiabeira, árvore da espécie Psidium guajava, da família Myrtaceae.",
+      "Description": "O fruto é constituído de uma baga, carnoso, casca verde, amarelada ou roxa, com superfície lisa ou irregular e em seu interior, há uma polpa rosada contendo dezenas de pequenas sementes duras, mas que podem ser ingeridas sem problemas. Essa fruta é utilizada em diferentes produtos derivados, tais como goiabadas, doces, compotas, sucos, sorvetes e molhos salgados, agridoces e óleo de goiaba (rico em ácido linoleico, como o ácido graxo) e também conhecida por ter muita vitamina C. Deixando como alerta o não consumo excessivo deste fruto pois pode causar prisão de ventre em compensação melhora a saúde do trato gastrointestinal, aumenta as defesas do organismo, favorece a perda de peso e promove a saúde da pele. ",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "31µg (4%)",
+          "Tiamina (B1)": "0,067mg (6%)",
+          "Riboflavina (B2)": "0,04mg (3%)",
+          "Niacina (B3)": "1,084mg (7%)",
+          "Ácido pantotênico (B5)": "0,451mg (9%)",
+          "Vitamina B6": "0,11mg (8%)",
+          "Folato (B9)": "49µg (12%)",
+          "Vitamina C": "228,3mg (275%)",
+          "Vitamina K": "2,2μg (2%)"
+        },
+        "Minerais": {
+          "Cálcio": "18mg (2%)",
+          "Ferro": "0,26mg (2%)",
+          "Magnésio": "22mg (6%)",
+          "Manganês": "0,15mg (7%)",
+          "Fosforo": "40mg (6%)",
+          "Potássio": "417mg (9%)",
+          "Sódio": "2mg (0%)",
+          "Zinco": "0,23mg (2%)"
+        }
+      }
+    },
+    {
+      "ID": 6,
+      "Name": "Laranja",
+      "Url": "http://www.frucafe.com.br/public/produto/406/mudas-de-laranja-da-terra-sac-20x35_maior.jpeg",
+      "Cientific": "Citrus aurantium",
+      "First Sentence": "A laranja é o fruto da laranjeira, uma árvore da família Rutaceae e como o próprio nome já revela de cor laranja.",
+      "Description": "O sabor da laranja varia do doce ao levemente ácido, mas na natureza existem também as laranjas extremamente ácidas, que pertencem a outra espécie, Citrus aurantium (mais abundante em São Tomé e Príncipe e conhecida vulgarmente como laranja do mato). A laranja é muito conhecida por ser fonte principalmente de vitamina C. Pode ser consumida descascando e comendo-a naturalmente, ou espremida para obter sumo (A forma mais eficiente de se beneficiar de todos os nutrientes da mesma), casca exterior pode ser usada também em diversos pratos culinários, como ornamento, ou mesmo para dar algum sabor. O albedo, a camada branca interior da casca, raramente é utilizado, apesar de ter um sabor levemente doce. É recomendada para \"quebrar\" o sabor ácido da laranja na boca, após terminar de consumir o fruto.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "11µg (1%)",
+          "Tiamina (B1)": "0,087mg (8%)",
+          "Riboflavina (B2)": "0,04mg (3%)",
+          "Niacina (B3)": "0,282mg (2%)",
+          "Ácido pantotênico (B5)": "0,25mg (5%)",
+          "Vitamina B6": "0,06mg (5%)",
+          "Folato (B9)": "30µg (8%)",
+          "Colina": "8,4mg (2%)",
+          "Vitamina C": "53,2mg (64%)",
+          "Vitamina E": "0,18mg (1%)"
+        },
+        "Minerais": {
+          "Cálcio": "40mg (4%)",
+          "Ferro": "0,1mg (1%)",
+          "Magnésio": "10mg (3%)",
+          "Manganês": "0,025mg (1%)",
+          "Fosforo": "14mg (2%)",
+          "Potássio": "181mg (4%)",
+          "Zinco": "0,07mg (1%)"
+        }
+      }
+    },
+    {
+      "ID": 7,
+      "Name": "Limão",
+      "Url": "https://i.imgur.com/hjFwTiV.png",
+      "Cientific": "Citrus Límon",
+      "First Sentence": "Limão cientificamente conhecido por Citrus Límon é o fruto de uma pequena árvore de folha perene. Este fruto é geralmente encontrado em locais com um clima temperado.",
+      "Description": "O fruto é desenvolvido numa arvore denominada por limoeiro que a sua altura não passa os 6 metros com folhas com pontuações translucidas que são apoiadas em ramos espinhentos e tem uma inflorescência que varia entre as cores alva ou violeta. \n Existem diversas substâncias na fruta, e os que encontra em maior concentração são o ácido cítricos e o acido ascórbico. O limão apresenta vários benefícios na nossa vida mas os que mais realçam são que favorecem a perda de peso, previne a prisão de ventre, exerce efeitos gastro protetores, protege contra infeções, diminui a pressão arterial, melhora a aparência da pele,  previne a anemia preveni as pedras nos rins e alguns tipo de câncer.  \n Quando o fruto é consumido diretamente, ou seja, sem nenhum processo de alteração da forma do fruto o mesmo apresenta um alto nível de energia. ",
+      "Nutricional": {
+        "Vitaminas": {
+          "Tiamina": "0,040mg (3%)",
+          "Riboflavina": "0,020mg (2%)",
+          "Niacina": "0,100mg (1%)",
+          "Acido pantotênico": "0,190mg (4%)",
+          "Vitamina B": "0,080 (6%)",
+          "Acido fólico": "11mg (3%)",
+          "Vitamina C": "53,0mg (68%)"
+        },
+        "Minerais": {
+          "Cálcio": "26mg (3%)",
+          "Ferro": "0.60mg (5%)",
+          "Magnésio": "8mg (2%)",
+          "Fosforo": "16mg (2%)",
+          "Zinco": "0.06mg (1%)",
+          "Potássio": "138mg (1%)"
+        }
+      }
+    },
+    {
+      "ID": 8,
+      "Name": "Sape-Sape",
+      "Url": "https://i.imgur.com/ifGu3BR.png  ",
+      "Cientific": "Gavriola",
+      "First Sentence": "Annona muricata vulgarmente conhecida como graviola ou sape-sape é uma fruta da gravioleira. O fruto têm forma ovalada, casca verde-pálida, são grandes, chegando a pesar entre 750 gramas a 8 quilogramas e dando o ano todo.",
+      "Description": "Contém muitas espinhas, envolvidas por uma polpa branca, de sabor agridoce, muito delicado. A gravioleira é uma árvore de pequeno porte (atinge de 4 a 6 metros de altura) e encontrada em quase todas as florestas tropicais, com folhas verdes brilhantes e flores amareladas, grandes e isoladas, que nascem no tronco e nos ramos. A gravioleira cresce em solos com boa drenagem e se desenvolve em um pH levemente ácido de 5.5 a 6.5. A colheita dos frutos é feita quando os mesmos atingem a maturação fisiológica, quando possuem uma coloração verde maçante. A propagação da graviola pode ser feita por meio de sementes, estacas, enxertia ou alporquia. O último método de propagação é o mais recomendado, e um dos métodos mais antigos usados para a reprodução de plantas. Em algumas regiões as folhas são usadas para chás terapêuticos no tratamento de tosses, hiperglicemia e as sementes contra parasitas.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Tiamina (B1)": "0,07mg (6%)",
+          "Riboflavina (B2)": "0,05mg (4%)",
+          "Niacina (B3)": "0,9mg (6%)",
+          "Ácido pantotênico (B5)": "0,253mg (5%)",
+          "Vitamina B6": "0,06mg (5%)",
+          "Folato (B9)": "14µg (4%)",
+          "Colina": "7,6mg (2%)",
+          "Vitamina C": "20,6mg (25%)"
+        },
+        "Minerais": {
+          "Cálcio": "14mg (1%)",
+          "Ferro": "0,6mg (5%)",
+          "Magnésio": "21mg (6%)",
+          "Fosforo": "27mg (4%)",
+          "Potássio": "278mg (6%)",
+          "Sódio": "14mg (1%)",
+          "Zinco": "0,1mg (1%)"
+        }
+      }
+    },
+    {
+      "ID": 9,
+      "Name": "Mamão",
+      "Url": "https://i.imgur.com/GRKxpuQ.png",
+      "Cientific": "Carica Papaya",
+      "First Sentence": "Cientificamente conhecido como carica papaya, o mamoeiro é uma árvore semi-herbáceo, oco no seu interior e cilíndrico. É uma árvore tropical, de crescimento rápido podendo atingir 8 metros de altura.",
+      "Description": "No topo da árvore não se vê ramos, mas sim grandes folhas com nervuras amarelas sustentada por longos pecíolos, ao caírem, durante o crescimento da planta as folhas deixam grandes cicatrizes no caule. O mamoeiro e uma planta hermafrodita que produz flores amarela ou brancas cuja a floração ocorre entre 9 a 10 meses após a plantação produzindo diferentes variedades do mesmo tendo em conta as suas flores (fêmeas, com flores exclusivamente femininas, produzem após a polinização frutos arredondados; fêmeas, com flores completas (perfeitas), geram os frutos preferidos comercialmente, alongados, com polpa mais espessa). O mamão é um fruto carnoso, grande, com polpa macia, densa, aromática e de coloração variável entre o amarelo e o vermelho. Sua casca é lisa e fina, verde na ocasião da colheita e que se torna gradativamente amarela ou alaranjada com o amadurecimento. A cavidade interna do fruto contém numerosas sementes pretas, comestíveis, de sabor picante, revestidas por uma substância mucilaginosa. O mamão é uma fruta sensível que deve ser acondicionada, transportada em armazenada sob cuidados especiais, para que não sofra lesões que inviabilizem seu consumo.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "47µg (6%)",
+          "Tiamina": "0,023mg (2%)",
+          "Riboflavina": "0,027mg (2%)",
+          "Niacina": "0,357mg (2%)",
+          "Acido pantotênico": "0,191mg (4%)",
+          "Acido fólico": "38µg (10%)",
+          "Vitamina C": "62mg (75%)",
+          "Vitamina E": "0,3 (2%)",
+          "Vitamina K": "2,6µg (2%)"
+        },
+        "Minerais": {
+          "Cálcio": "20mg (2%)",
+          "Ferro": "0,25mg (2%)",
+          "Magnésio": "21mg (6%)",
+          "Manganês": "0.04mg (2%)",
+          "Potássio": "182mg (4%)",
+          "Sódio": "8mg (1%)",
+          "Zinco": "0.08mg (1%)"
+        }
+      }
+    }
+  ],
+  "en": [
+    {
+      "ID": 0,
+      "Name": "Jackfruit",
+      "Url": "https://i.imgur.com/NahKDUV.png",
+      "Cientific": "artocarpus heterophyllus",
+      "First Sentence": "Jackfruit scientifically known as artocarpus heterophyllus, is a tropical tree whose fruit is jackfruit. Tree with evergreen foliage, about 20 meters high and with a trunk 30 to 60 centimeters in diameter covered by a thick bark.",
+      "Description": "Cauliflora plant, with male flowers grouped in claviform spikes and female flowers in compact spikes. The fruits are oval in shape, are born directly from the trunk and the most robust branches and weigh an average of 10 kg. The edible part of jackfruit is the fruit (berries) found inside the syncarp, usually exceeding a hundred and can be of two varieties: hard, which produces larger fruits, and soft, in general sweeter, the fruit is smaller.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "5μg (1%)",
+          "Tiamina (B1)": "0,105mg (9%)",
+          "Riboflavina (B2)": "0,055mg (5%)",
+          "Niacina (B3)": "0,92mg (6%)",
+          "Ácido pantotênico (B5)": "0,235mg (5%)",
+          "Vitamina B6": "0,329mg (25%)",
+          "Vitamina C": "13,8mg (17%)",
+          "Vitamina E": "0,34mg (2%)",
+          "Folato (B9)": "24µg (6%)"
+        },
+        "Minerais": {
+          "Cálcio": "24mg (2%)",
+          "Ferro": "0,23mg (2%)",
+          "Magnésio": "29mg (8%)",
+          "Manganês": "0,043mg (2%)",
+          "Fosforo": "21mg (3%)",
+          "Zinco": "0,13mg (1%)",
+          "Potássio": "448mg (10%)"
+        }
+      }
+    },
+    {
+      "ID": 1,
+      "Name": "Regular Banana",
+      "Url": "https://i.imgur.com/L6wuVip.png",
+      "Cientific": "Musa Acuminata",
+      "First Sentence": "Banana bread is a pseudoberry of the banana tree, a perennial herbaceous plant of the musaceae family and is currently cultivated in practically all tropical regions of the planet.",
+      "Description": "The term banana refers to fruits with a soft and sweet pulp that can be consumed raw, however, there are cultivated varieties, with a tougher pulp and firmer skin, called plantains or plantains that are consumed cooked (roasted). , boiled and fried), constituting a staple food of tropical regions, in this case São Tomé and Príncipe. \n\n Bananas are formed in bunches, similar to grapes, superior to pseudostems that are born from a true underground stem whose longevity reaches 15 years or more. From the lower part of the banana bunch, still immature, a tassel emerges and, at its end, a cone of differentiated color and consistency, which is the banana flower, stands out. \n\nIt is green when immature, reaching yellow when mature. A bunch normally has twenty bananas and can weigh from 30 to 50 kg. Its shape is elongated, but it can vary greatly in shape depending on the crop varieties. After being cut, the banana darkens very quickly, due to oxidation in contact with the air.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Tiamina (B1)": "0,031mg (3%)",
+          "Riboflavina (B2)": "0,073mg (6%)",
+          "Niacina (B3)": "0,665mg (4%)",
+          "Ácido pantotênico (B5)": "0,334mg (7%)",
+          "Vitamina B6": "0,4mg (31%)",
+          "Vitamina C": "8,7mg (10%)",
+          "Colina": "9,8mg (2%)",
+          "Folato (B9)": "20µg (5%)"
+        },
+        "Minerais": {
+          "Ferro": "0,26mg (2%)",
+          "Magnésio": "27mg (8%)",
+          "Manganês": "0,27mg (13%)",
+          "Fosforo": "22mg (3%)",
+          "Potássio": "358mg (8%)",
+          "Sódio": "1mg (0%)",
+          "Zinco": "0,15mg (2%)"
+        }
+      }
+    },
+    {
+      "ID": 2,
+      "Name": "BreadFruit",
+      "Cientific": "Artocarpus altilis",
+      "Url": "https://i.imgur.com/zQQ4TgC.png",
+      "First Sentence": "Popularly known as fruit tree whose fruit is breadfruit is a fruit tree, related to jackfruit.",
+      "Description": "Breadfruit is divided into two varieties: apyrena, known as dough breadfruit, which has no seeds, and seminiferous, known as stone breadfruit, which has numerous edible seeds and inedible pulp. Breadfruit is also an ornamental tree, large and fast growing, reaching 20 meters in height. Longeva, lives about 80 years. Its leaves are very beautiful, large, evergreen and deeply lobed. If bruised, it exudes a milky latex that has artisanal applications, for caulking and as glue. Breadfruit is a monoecious plant, that is, with both sexes on the same plant and separate flowers, male and female. The fruits are large, round like melons, and can weigh up to 3 kilograms and are yellow-green in color.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "22µg (3%)",
+          "Tiamina (B1)": "0,11mg (10%)",
+          "Riboflavina (B2)": "0,03mg (3%)",
+          "Niacina (B3)": "0,9mg (6%)",
+          "Ácido pantotênico (B5)": "0,457mg (9%)",
+          "Vitamina B6": "0,1mg (8%)",
+          "Vitamina C": "9,8mg (35%)",
+          "Colina": "9,8mg (2%)",
+          "Folato (B9)": "14µg (4%)",
+          "Vitamina E": "0,1mg (1%)",
+          "Vitamina K": "0,5μg (0%)"
+        },
+        "Minerais": {
+          "Cálcio": "17mg (2%)",
+          "Ferro": "0,54mg (4%)",
+          "Magnésio": "25mg (7%)",
+          "Manganês": "0,06mg (3%)",
+          "Fosforo": "30mg (4%)",
+          "Potássio": "490mg (10%)",
+          "Sódio": "2mg (0%)",
+          "Zinco": "0,12mg (1%)"
+        }
+      }
+    },
+    {
+      "ID": 3,
+      "Name": "Safou",
+      "Url": "https://i.imgur.com/OXa9NR8.png",
+      "Cientific": "Dacryodes edulis",
+      "First Sentence": "Commonly known as safuzeiro, it is an evergreen tree whose fruit is safu, native to both São Tomé and Príncipe.",
+      "Description": "It can reach about 30 to 40 meters in height with a trunk with 60 to 80 centimeters in diameter. This food is also a favorite delicacy of parrots, parakeets, and other wild trees. The reproduction of this tree, which can be considered a visual attraction, occurs once a year between the months of January and April and consumption in this period of time is recommended because a technique for storing the product throughout the year has not yet been developed.",
+      "Nutricional": {
+        "Valor Nutricional": {
+          "Vitamina A": "634,4mg",
+          "Vitamina C": "23,12mg",
+          "Proteínas": "13,54g",
+          "Carboidratos": "8,93g"
+        }
+      }
+    },
+    {
+      "ID": 4,
+      "Name": "Carambola",
+      "Url": "https://i.imgur.com/Wo931Ew.png",
+      "Cientific": "Averrhoa",
+      "Description": "Vibrant yellow in color, with a star shape (in English, it is called star fruit), Averrhoa commonly known as carambola carambola fruit has a bittersweet flavor, with a color ranging from green to yellow, depending on the degree of maturation, also considered a backyard fruit, because its cultivation is not done in scale, being produced essentially in farms, backyards, farms and orchards.",
+      "First Sentence": "Carambola is very rich in vitamin A, C and a good source of fiber, but it also inspires care for those living with chronic kidney disease, in controversial it serves to fight different fevers.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "66µg (3%)",
+          "Tiamina (B1)": "0,014mg (1%)",
+          "Riboflavina (B2)": "0,016mg (1%)",
+          "Niacina (B3)": "0,367mg (2%)",
+          "Ácido pantotênico (B5)": "0,391mg (8%)",
+          "Vitamina B6": "0,017mg (1%)",
+          "Folato (B9)": "12µg (3%)",
+          "Colina": "7,6mg (2%)",
+          "Vitamina C": "34,4mg (41%)",
+          "Vitamina E": "0,15mg (1%)"
+        },
+        "Minerais": {
+          "Cálcio": "3mg (0%)",
+          "Ferro": "0,08mg (1%)",
+          "Magnésio": "10mg (3%)",
+          "Manganês": "0,037mg (2%)",
+          "Fosforo": "12mg (2%)",
+          "Potássio": "133mg (3%)",
+          "Sódio": "2mg (0%)",
+          "Zinco": "0,12mg (1%)"
+        }
+      }
+    },
+    {
+      "ID": 5,
+      "Name": "Guava",
+      "Url": "https://i.imgur.com/AnO5ObG.png",
+      "Cientific": "Psidium guajava",
+      "First Sentence": "Tropical fruit born from the guava tree, a tree of the Psidium guajava species, of the Myrtaceae family.",
+      "Description": "The fruit consists of a berry, fleshy, green, yellowish or purple skin, with a smooth or irregular surface and inside, there is a pink pulp containing dozens of small hard seeds, but which can be ingested without problems. This fruit is used in different products, such as guava, sweets, jams, juices, ice cream and savory sauces, sweet and sour and guava oil (rich in linoleic acid, such as fatty acid) and is also known for having a lot of vitamin C. as a warning not to excessive consumption of this fruit as it can cause constipation, on the other hand, it improves the health of the gastrointestinal tract, increases the body's defenses, favors weight loss and promotes skin health.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "31µg (4%)",
+          "Tiamina (B1)": "0,067mg (6%)",
+          "Riboflavina (B2)": "0,04mg (3%)",
+          "Niacina (B3)": "1,084mg (7%)",
+          "Ácido pantotênico (B5)": "0,451mg (9%)",
+          "Vitamina B6": "0,11mg (8%)",
+          "Folato (B9)": "49µg (12%)",
+          "Vitamina C": "228,3mg (275%)",
+          "Vitamina K": "2,2μg (2%)"
+        },
+        "Minerais": {
+          "Cálcio": "18mg (2%)",
+          "Ferro": "0,26mg (2%)",
+          "Magnésio": "22mg (6%)",
+          "Manganês": "0,15mg (7%)",
+          "Fosforo": "40mg (6%)",
+          "Potássio": "417mg (9%)",
+          "Sódio": "2mg (0%)",
+          "Zinco": "0,23mg (2%)"
+        }
+      }
+    },
+    {
+      "ID": 6,
+      "Name": "Orange",
+      "Url": "http://www.frucafe.com.br/public/produto/406/mudas-de-laranja-da-terra-sac-20x35_maior.jpeg",
+      "Cientific": "Citrus aurantium",
+      "First Sentence": "The orange is the fruit of the orange tree, a tree of the Rutaceae family and as its name already reveals orange.",
+      "Description": "The orange flavor varies from sweet to slightly acidic, but in nature there are also extremely acidic oranges, which belong to another species, Citrus aurantium (more abundant in São Tomé and Príncipe and commonly known as orange of the bush). Orange is well known for being a source mainly of vitamin C. It can be consumed by peeling and eating it naturally, or squeezed to obtain juice (The most efficient way to benefit from all its nutrients), outer peel can also be used in various culinary dishes, as an ornament, or even to add some flavor. The albedo, the white inner layer of the bark, is rarely used, despite having a slightly sweet taste. It is recommended to \"break\" the acidic flavor of the orange in the mouth, after finishing consuming the fruit.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "11µg (1%)",
+          "Tiamina (B1)": "0,087mg (8%)",
+          "Riboflavina (B2)": "0,04mg (3%)",
+          "Niacina (B3)": "0,282mg (2%)",
+          "Ácido pantotênico (B5)": "0,25mg (5%)",
+          "Vitamina B6": "0,06mg (5%)",
+          "Folato (B9)": "30µg (8%)",
+          "Colina": "8,4mg (2%)",
+          "Vitamina C": "53,2mg (64%)",
+          "Vitamina E": "0,18mg (1%)"
+        },
+        "Minerais": {
+          "Cálcio": "40mg (4%)",
+          "Ferro": "0,1mg (1%)",
+          "Magnésio": "10mg (3%)",
+          "Manganês": "0,025mg (1%)",
+          "Fosforo": "14mg (2%)",
+          "Potássio": "181mg (4%)",
+          "Zinco": "0,07mg (1%)"
+        }
+      }
+    },
+    {
+      "ID": 7,
+      "Name": "Lemon",
+      "Url": "https://i.imgur.com/hjFwTiV.png",
+      "Cientific": "Citrus Límon",
+      "First Sentence": "Lemon scientifically known as Citrus Limon is the fruit of a small evergreen tree. This fruit is usually found in places with a temperate climate.",
+      "Description": "The fruit is developed in a tree called lemon tree whose height does not exceed 6 meters with leaves with translucent points that are supported on thorny branches and has an inflorescence that varies between the colors alb or violet. \n There are several substances in the fruit, and those found in greater concentration are citric acid and ascorbic acid. Lemon has several benefits in our life, but the ones that stand out the most are that it favors weight loss, prevents constipation, exerts gastro-protective effects, protects against infections, lowers blood pressure, improves the appearance of the skin, prevents anemia I prevented kidney stones and some types of cancer. \n When the fruit is consumed directly, that is, without any process of changing the shape of the fruit, it has a high level of energy.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Tiamina": "0,040mg (3%)",
+          "Riboflavina": "0,020mg (2%)",
+          "Niacina": "0,100mg (1%)",
+          "Acido pantotênico": "0,190mg (4%)",
+          "Vitamina B": "0,080 (6%)",
+          "Acido fólico": "11mg (3%)",
+          "Vitamina C": "53,0mg (68%)"
+        },
+        "Minerais": {
+          "Cálcio": "26mg (3%)",
+          "Ferro": "0.60mg (5%)",
+          "Magnésio": "8mg (2%)",
+          "Fosforo": "16mg (2%)",
+          "Zinco": "0.06mg (1%)",
+          "Potássio": "138mg (1%)"
+        }
+      }
+    },
+    {
+      "ID": 8,
+      "Name": "Soursop",
+      "Url": "https://i.imgur.com/ifGu3BR.png  ",
+      "Cientific": "Gavriola",
+      "First Sentence": "Annona muricata commonly known as soursop or sape-sape is a fruit of the soursop tree. The fruit has an oval shape, pale green skin, is large, weighing between 750 grams and 8 kilograms and is available all year round.",
+      "Description": "It contains many pimples, surrounded by a white pulp, with a bittersweet taste, very delicate. Soursop is a small tree (reaching 4 to 6 meters in height) and found in almost all tropical forests, with bright green leaves and large, isolated yellow flowers that grow on the trunk and branches. Soursop grows in well-draining soils and thrives at a slightly acidic pH of 5.5 to 6.5. The fruits are harvested when they reach physiological maturity, when they have a dull green color. The propagation of soursop can be done through seeds, cuttings, grafting or air layering. The last method of propagation is the most recommended, and one of the oldest methods used for plant reproduction. In some regions the leaves are used for therapeutic teas in the treatment of coughs, hyperglycemia and the seeds against parasites.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Tiamina (B1)": "0,07mg (6%)",
+          "Riboflavina (B2)": "0,05mg (4%)",
+          "Niacina (B3)": "0,9mg (6%)",
+          "Ácido pantotênico (B5)": "0,253mg (5%)",
+          "Vitamina B6": "0,06mg (5%)",
+          "Folato (B9)": "14µg (4%)",
+          "Colina": "7,6mg (2%)",
+          "Vitamina C": "20,6mg (25%)"
+        },
+        "Minerais": {
+          "Cálcio": "14mg (1%)",
+          "Ferro": "0,6mg (5%)",
+          "Magnésio": "21mg (6%)",
+          "Fosforo": "27mg (4%)",
+          "Potássio": "278mg (6%)",
+          "Sódio": "14mg (1%)",
+          "Zinco": "0,1mg (1%)"
+        }
+      }
+    },
+    {
+      "ID": 9,
+      "Name": "Papaya",
+      "Url": "https://i.imgur.com/GRKxpuQ.png",
+      "Cientific": "Carica Papaya",
+      "First Sentence": "Scientifically known as carica papaya, papaya is a semi-herbaceous tree, hollow inside and cylindrical. It is a tropical tree, fast growing and can reach 8 meters in height.",
+      "Description": "At the top of the tree there are no branches, but large leaves with yellow veins supported by long petioles, when they fall, during the plant's growth the leaves leave large scars on the stem. Papaya is a hermaphrodite plant that produces yellow or white flowers whose flowering occurs between 9 to 10 months after planting, producing different varieties of it, taking into account their flowers (female, with exclusively female flowers, produce rounded fruits after pollination; females, with complete (perfect) flowers, generate the commercially preferred fruits, elongated, with thicker pulp). Papaya is a large, fleshy fruit, with a soft, dense, aromatic pulp that varies in color between yellow and red. Its bark is smooth and thin, green at harvest and gradually turning yellow or orange with ripening. The inner cavity of the fruit contains numerous black, edible seeds with a spicy taste, coated with a mucilaginous substance. Papaya is a sensitive fruit that must be packaged, transported and stored under special care, so that it does not suffer injuries that make its consumption unfeasible.",
+      "Nutricional": {
+        "Vitaminas": {
+          "Vitamina A": "47µg (6%)",
+          "Tiamina": "0,023mg (2%)",
+          "Riboflavina": "0,027mg (2%)",
+          "Niacina": "0,357mg (2%)",
+          "Acido pantotênico": "0,191mg (4%)",
+          "Acido fólico": "38µg (10%)",
+          "Vitamina C": "62mg (75%)",
+          "Vitamina E": "0,3 (2%)",
+          "Vitamina K": "2,6µg (2%)"
+        },
+        "Minerais": {
+          "Cálcio": "20mg (2%)",
+          "Ferro": "0,25mg (2%)",
+          "Magnésio": "21mg (6%)",
+          "Manganês": "0.04mg (2%)",
+          "Potássio": "182mg (4%)",
+          "Sódio": "8mg (1%)",
+          "Zinco": "0.08mg (1%)"
+        }
+      }
+    }
+  ]
+}

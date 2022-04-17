@@ -6,20 +6,41 @@ import unidecode from 'unidecode'
 import Image from 'next/image'
 import 'aos/dist/aos.css'
 import { useState, useEffect } from 'react';
+import data from '../data.json'
 
-const Search = ({ data }) => {
+const Search = () => {
     const router = useRouter();
     let fruit = router.query.name
     fruit = fruit?.toLowerCase()
     let results = []
-    for (var i = 0; i < data.length; i++) {
-        if (unidecode(data[i].Name.toLowerCase()).includes(fruit) && !results.includes(data[i])) {
-            results.push(data[i])
+
+    let IDs = []
+    for (var i = 0; i < data.pt.length; i++) {
+        if (unidecode(data.pt[i].Name.toLowerCase()).includes(fruit) && !IDs.includes(data.pt[i].ID)) {
+            IDs.push(data.pt[i].ID)
         }
-        else if (data[i].Name.toLowerCase().includes(fruit) && !results.includes(data[i])) {
-          results.push(data[i])
+        else if (data.pt[i].Name.toLowerCase().includes(fruit) && !IDs.includes(data.pt[i].ID)) {
+          IDs.push(data.pt[i].ID)
       }
     }
+    
+
+    for (var i = 0; i < data.en.length; i++) {
+      if (unidecode(data.en[i].Name.toLowerCase()).includes(fruit) && !IDs.includes(data.en[i].ID)) {
+        IDs.push(data.en[i].ID)
+      }
+      else if (data.en[i].Name.toLowerCase().includes(fruit) && !IDs.includes(data.en[i].ID)) {
+        IDs.push(data.en[i].ID)
+    }
+  }
+
+  console.log({
+    IDSLIST : IDs
+  })
+  const resultsen = IDs.map(id => data.en[id])
+  const resultspt = IDs.map(id => data.pt[id])
+
+
 
     const [lang, setLang] = useState(false)
   useEffect(() => {
@@ -33,7 +54,9 @@ const Search = ({ data }) => {
     }
   }, [])
 
-    if (results.length != 0) {
+
+
+    if (resultspt.length != 0) {
         return (
         <main>
         <Head>
@@ -50,7 +73,14 @@ const Search = ({ data }) => {
             } 
             </div>
             <div className={styles.cardlist}>
-            {results.map((item) => (<Card key={item} name={item.Name} img={item.Url}/>))}
+            {lang ?
+            <>
+            {resultsen.map((item) => (<Card key={item} name={item.Name} img={item.Url}/>))}
+            </>
+            :<>
+            {resultspt.map((item) => (<Card key={item} name={item.Name} img={item.Url}/>))}
+            </>
+            }
         </div>
         </div>
     </main>
@@ -76,19 +106,6 @@ const Card = ({name, img}) => {
         <p>{name}</p>
       </button>
     )
-  }
-
-export const getStaticProps = async () => {
-    const res = await fetch('https://fruits-flavours-api.herokuapp.com')
-    const data = await res.json()
-  
-  
-    return {
-      props: {
-          data
-      },
-      revalidate : 60
-    }
   }
 
 export default Search

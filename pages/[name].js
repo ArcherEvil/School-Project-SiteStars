@@ -6,11 +6,31 @@ import Aos from 'aos';
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import tablestyles from '../styles/Fruits/Table.module.css'
+import data from '../data.json'
+
+const Fruit = () => {
+  const router = useRouter();
+
+  const fruitspt = data.pt
+  const fruitsen = data.en
+  const { asPath } = useRouter()
 
 
-const Fruit = ({ fruitpt, fruiten }) => {
-  
-  
+  const fruit = decodeURI(asPath.substring(1))
+  let fruitpt = []
+  for (var i = 0; i < fruitspt.length; i++) {
+    if (fruitspt[i].Name == fruit) {
+      fruitpt = fruitspt[i]
+    }
+  }
+
+  let fruiten = []
+  for (var i = 0; i < fruitsen.length; i++) {
+    if (fruitspt[i].Name == fruit) {
+      fruiten = fruitsen[i]
+    }
+  }
+
   const [lang, setLang] = useState(false)
   useEffect(() => {
     Aos.init({duration : 2000})
@@ -26,8 +46,8 @@ const Fruit = ({ fruitpt, fruiten }) => {
   
   
   
-  const router = useRouter();
-  
+
+
 
   return (
     <main className={styles.main}>
@@ -111,43 +131,4 @@ const Fruit = ({ fruitpt, fruiten }) => {
 
 export default Fruit
 
-export const getStaticProps = async (context) => {
-  const res = await fetch('https://fruits-flavours-api.herokuapp.com')
-  const fruits = await res.json()
-  
-  const fruitspt = fruits.pt
-  const fruitsen = fruits.en
 
-  let fruitpt = []
-  for (var i = 0; i < fruitspt.length; i++) {
-    if (fruitspt[i].Name == context.params.name) {
-      fruitpt = fruitspt[i]
-    }
-  }
-
-  let fruiten = []
-  for (var i = 0; i < fruitsen.length; i++) {
-    if (fruitspt[i].Name == context.params.name) {
-      fruiten = fruitsen[i]
-    }
-  }
-
-  return {
-    props: {
-        fruitpt,
-        fruiten
-    },
-    revalidate : 60
-  }
-}
-
-export const getStaticPaths = async () => {
-  const res = await fetch('https://fruits-flavours-api.herokuapp.com')
-  const data = await res.json()
-  const fruits = data.pt.map(fruit => fruit.Name)
-  const paths = fruits.map(fruit => ({params: {name: fruit.toString()}}))
-  return {
-    paths,
-    fallback: false,
-  }
-}
