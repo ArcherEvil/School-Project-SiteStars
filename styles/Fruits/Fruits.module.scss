@@ -32,6 +32,14 @@ main.main {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+    h3 {
+        font-size: 3rem;
+        margin: 0;
+    }
+    h5 {
+        font-size: 2rem;
+        margin: 0;
+    }
     .content {
         margin-bottom: 200px;
         display: flex;
@@ -102,6 +110,7 @@ main.main {
             font-size: 1.5rem;
             color: gray;
         }
+        
         h6 {
             margin: 0;
             margin-bottom: 30px;

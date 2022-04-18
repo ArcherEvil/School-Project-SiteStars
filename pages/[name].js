@@ -15,20 +15,25 @@ const Fruit = () => {
   const fruitsen = data.en
   const { asPath } = useRouter()
 
-
   const fruit = decodeURI(asPath.substring(1))
-  let fruitpt = []
+  let fruitpt = 'equals'
   for (var i = 0; i < fruitspt.length; i++) {
     if (fruitspt[i].Name == fruit) {
       fruitpt = fruitspt[i]
     }
   }
 
-  let fruiten = []
+  let fruiten = 'equals'
   for (var i = 0; i < fruitsen.length; i++) {
     if (fruitspt[i].Name == fruit) {
       fruiten = fruitsen[i]
     }
+  }
+
+  let fof = false
+
+  if (fruitpt == 'equals' && fruiten  == 'equals') {
+    fof = true
   }
 
   const [lang, setLang] = useState(false)
@@ -44,12 +49,27 @@ const Fruit = () => {
     }
   }, [])
   
-  
-  
-
-
-
+ 
   return (
+    <>
+    {
+      fof ?
+      <main className={styles.main}>
+      <Head>
+        {lang ?
+        <title>Page do not exist.</title>
+        :<title>A página n existe.</title>
+        }
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <h3>404 error</h3>
+      {lang ? 
+      <h5>This page do not exists</h5>
+      :<h5>A página não existe</h5>
+      }
+
+      </main>
+    :
     <main className={styles.main}>
         <Head>
         {lang ?
@@ -126,6 +146,8 @@ const Fruit = () => {
       }
       </div>
     </main>
+    }
+    </>
   )
 }
 

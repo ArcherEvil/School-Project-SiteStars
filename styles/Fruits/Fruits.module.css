@@ -49,6 +49,16 @@ main.main button:active {
   border-radius: 20px;
 }
 
+main.main h3 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+main.main h5 {
+  font-size: 2rem;
+  margin: 0;
+}
+
 main.main .content {
   margin-bottom: 200px;
   display: -webkit-box;

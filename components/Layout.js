@@ -14,11 +14,9 @@ const Layout = ({ children }) => {
   }, [])
   const [Loading, setLoading] = useState(false)
   Router.events.on('routeChangeStart', (url) => {
-    console.log('router is changing')
     setLoading(true)
   })
   Router.events.on('routeChangeComplete', (url) => {
-    console.log('router Completed')
     setLoading(false)
   })
 
