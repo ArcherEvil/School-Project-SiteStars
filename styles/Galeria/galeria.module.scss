@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
+
 main.main {
     h1 {
         margin-top: 200px;
@@ -17,8 +18,145 @@ main.main {
     }
     div.imageshower {
         width: 100vw;
-        img {
-            width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        div {
+            .imgshowercontainer {
+                transition: 200ms ease-out;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100vw;
+                height: 100vh;
+                z-index: 10;
+                display: flex;
+                background-color: rgba(12, 12, 12, 0.953);
+                justify-content: center;
+                align-items: center;
+                svg {
+                    position: fixed;
+                    color: white;
+                    top: 30px;
+                    right: 30px;
+                    transform: scale(3);
+                    z-index: 21;
+                    cursor: pointer;
+                }
+                .imgshoweropen {
+                    width: 40%;
+                    position: fixed;
+                    display: block;
+                    // height: 100vh;
+                    z-index: 20;
+                }
+            }
+            p {
+                font-weight: 600;
+                text-align: center;
+                font-size: 3rem;
+            }
+            .imagecontainer {   
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 2vw;
+                .image {
+                    border-radius: 20%;
+                    min-width: 25%;
+                    transition: 200ms ease-out;
+                    
+                    max-width: 40%;
+                    cursor: pointer;
+                    &:hover {
+                        transform: scale(1.05)
+                    }
+                    max-height: 300px;
+                }
+            }
+            .imagecontainerone {   
+                width: 100%;
+                overflow-x: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2vw;
+                .image {
+                    border-radius: 20%;
+                    transition: 200ms ease-out;
+                    min-width: 25%;
+                    max-width: 40%;
+                    cursor: pointer;
+                    &:hover {
+                        transform: scale(1.05)
+                    }
+                    max-height: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main.main {
+        div.imageshower {
+            div {
+                .imgshowercontainer {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    flex-direction: column;
+                    width: 100vw;
+                    height: 100vh;
+                    z-index: 10;
+                    display: flex;
+                    background-color: rgba(12, 12, 12, 0.953);
+                    justify-content: center;
+                    align-items: center;
+                    .imgshoweropen {
+                        width: 100%;
+                        position: fixed;
+                        display: block;
+                        // height: 100vh;
+                        z-index: 90;
+                    }
+                }
+                margin-bottom: 25px;
+                p {
+                    font-weight: 700;
+                    text-align: center;
+                    font-size: 1.5rem;
+                }
+                .imagecontainer {
+                    justify-content: flex-start;
+                    overflow-x: auto;
+                    #one {
+                        margin-left: center;
+                        margin-right: center;
+                    }
+                    .image {
+                        
+                        min-width: 50%;
+                        max-width: 50%;
+                    }
+                }
+                .imagecontainerone {
+                    justify-content: center;
+                    overflow-x: auto;
+                    #one {
+                        margin-left: center;
+                        margin-right: center;
+                    }
+                    .image {
+                        
+                        min-width: 50%;
+                        max-width: 50%;
+                    }
+                }
+            }
         }
     }
 }

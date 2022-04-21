@@ -16,9 +16,193 @@ main.main h2 {
 
 main.main div.imageshower {
   width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-main.main div.imageshower img {
-  width: 10%;
+main.main div.imageshower div .imgshowercontainer {
+  -webkit-transition: 200ms ease-out;
+  transition: 200ms ease-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(12, 12, 12, 0.953);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main.main div.imageshower div .imgshowercontainer svg {
+  position: fixed;
+  color: white;
+  top: 30px;
+  right: 30px;
+  -webkit-transform: scale(3);
+          transform: scale(3);
+  z-index: 21;
+  cursor: pointer;
+}
+
+main.main div.imageshower div .imgshowercontainer .imgshoweropen {
+  width: 40%;
+  position: fixed;
+  display: block;
+  z-index: 20;
+}
+
+main.main div.imageshower div p {
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+}
+
+main.main div.imageshower div .imagecontainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2vw;
+}
+
+main.main div.imageshower div .imagecontainer .image {
+  border-radius: 20%;
+  min-width: 25%;
+  -webkit-transition: 200ms ease-out;
+  transition: 200ms ease-out;
+  max-width: 40%;
+  cursor: pointer;
+  max-height: 300px;
+}
+
+main.main div.imageshower div .imagecontainer .image:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+main.main div.imageshower div .imagecontainerone {
+  width: 100%;
+  overflow-x: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2vw;
+}
+
+main.main div.imageshower div .imagecontainerone .image {
+  border-radius: 20%;
+  -webkit-transition: 200ms ease-out;
+  transition: 200ms ease-out;
+  min-width: 25%;
+  max-width: 40%;
+  cursor: pointer;
+  max-height: 300px;
+}
+
+main.main div.imageshower div .imagecontainerone .image:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+@media screen and (max-width: 900px) {
+  main.main div.imageshower div {
+    margin-bottom: 25px;
+  }
+  main.main div.imageshower div .imgshowercontainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: rgba(12, 12, 12, 0.953);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main.main div.imageshower div .imgshowercontainer .imgshoweropen {
+    width: 100%;
+    position: fixed;
+    display: block;
+    z-index: 90;
+  }
+  main.main div.imageshower div p {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  main.main div.imageshower div .imagecontainer {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    overflow-x: auto;
+  }
+  main.main div.imageshower div .imagecontainer #one {
+    margin-left: center;
+    margin-right: center;
+  }
+  main.main div.imageshower div .imagecontainer .image {
+    min-width: 50%;
+    max-width: 50%;
+  }
+  main.main div.imageshower div .imagecontainerone {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow-x: auto;
+  }
+  main.main div.imageshower div .imagecontainerone #one {
+    margin-left: center;
+    margin-right: center;
+  }
+  main.main div.imageshower div .imagecontainerone .image {
+    min-width: 50%;
+    max-width: 50%;
+  }
 }
 /*# sourceMappingURL=galeria.module.css.map */

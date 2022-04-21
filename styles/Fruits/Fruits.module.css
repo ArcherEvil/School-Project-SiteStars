@@ -59,6 +59,45 @@ main.main h5 {
   margin: 0;
 }
 
+main.main .imgshowercontainer {
+  -webkit-transition: 200ms ease-out;
+  transition: 200ms ease-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(12, 12, 12, 0.953);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main.main .imgshowercontainer svg {
+  position: fixed;
+  color: white;
+  top: 30px;
+  right: 30px;
+  -webkit-transform: scale(3);
+          transform: scale(3);
+  z-index: 21;
+  cursor: pointer;
+}
+
+main.main .imgshowercontainer .imgshoweropen {
+  width: 40%;
+  position: fixed;
+  display: block;
+  z-index: 20;
+}
+
 main.main .content {
   margin-bottom: 200px;
   display: -webkit-box;
@@ -85,7 +124,10 @@ main.main .content {
 }
 
 main.main .content .img {
+  cursor: pointer;
   display: block;
+  -webkit-transition: 200ms ease-out;
+  transition: 200ms ease-out;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -94,6 +136,11 @@ main.main .content .img {
   margin: 0;
   margin-top: 30px;
   width: 25%;
+}
+
+main.main .content .img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 main.main .content .name {
@@ -170,11 +217,35 @@ main.main .content .table {
   padding: 40px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (orientation: portrait) {
   main.main button {
     margin-bottom: 0px;
     padding: 15px;
     font-size: 1rem;
+  }
+  main.main .imgshowercontainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: rgba(12, 12, 12, 0.953);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main.main .imgshowercontainer .imgshoweropen {
+    width: 100%;
+    position: fixed;
+    display: block;
+    z-index: 90;
   }
   main.main .content {
     width: 100%;

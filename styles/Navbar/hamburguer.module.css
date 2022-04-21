@@ -1,0 +1,99 @@
+.menubtn {
+  margin-left: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    /* border: 3px solid #fff; */
+  }
+  .menubtn__burger {
+    width: 50px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+  }
+  .menubtn__burger::before,
+  .menubtn__burger::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+  }
+  .menubtn__burger::before {
+    transform: translateY(-16px);
+  }
+  .menubtn__burger::after {
+    transform: translateY(16px);
+  }
+
+@media screen and (max-width: 600px) {
+  .menubtn__burger {
+    width: 25px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+  }
+  .menubtn__burger::before,
+  .menubtn__burger::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 6px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+  }
+  }
+
+  @media screen and (max-width: 800px) {
+    .menubtn {
+      margin-left: 2px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 80px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        /* border: 3px solid #fff; */
+      }
+      .menubtn__burger {
+        width: 25px;
+        height: 4px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255,101,47,.2);
+        transition: all .5s ease-in-out;
+      }
+      .menubtn__burger::before,
+      .menubtn__burger::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 4px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255,101,47,.2);
+        transition: all .5s ease-in-out;
+      }
+    .menubtn__burger::before {
+      transform: translateY(-9px);
+    }
+    .menubtn__burger::after {
+      transform: translateY(9px);
+    }
+  }

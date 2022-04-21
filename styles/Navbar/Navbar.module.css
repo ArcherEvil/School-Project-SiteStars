@@ -50,17 +50,13 @@ nav.Navbar a {
   margin-left: 20px;
   outline: none;
   border: none;
-  z-index: 100;
+  margin-right: auto;
+  z-index: 15;
   background: none;
   text-decoration: none;
   color: #e7e7e7;
   font-size: 2.5rem;
   font-weight: 700;
-}
-
-nav.Navbar a:hover {
-  cursor: pointer;
-  text-decoration: underline;
 }
 
 nav.Navbar div.Searchbar {
@@ -179,10 +175,35 @@ nav.Navbar div.Searchbar button:active img {
 }
 
 @media screen and (max-width: 500px) {
+  nav.Navbar div.navcontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 5px;
+  }
+  nav.Navbar div.navcontainer select {
+    padding: 0px 10px 0px 10px;
+    border: 1px solid #474747;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    font-weight: 800;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    background-color: #2e2e2e;
+    cursor: pointer;
+  }
+  nav.Navbar div.navcontainer select option {
+    cursor: pointer;
+  }
+  nav.Navbar div.navcontainer select:hover {
+    background-color: #3f3f3f;
+  }
   nav.Navbar a {
     margin: 0;
-    font-size: 1.2rem;
-    z-index: 10;
+    font-size: 1rem;
+    padding-right: 2px;
+    z-index: 2;
   }
   nav.Navbar div.Searchbar {
     margin: 0;
@@ -196,9 +217,6 @@ nav.Navbar div.Searchbar button:active img {
   nav.Navbar div.Searchbar button {
     border-radius: 0px 10px 10px 0px;
     background-color: #f0f0f0;
-  }
-  nav.Navbar select {
-    margin: 0;
   }
 }
 /*# sourceMappingURL=Navbar.module.css.map */

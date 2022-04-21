@@ -1,15 +1,17 @@
 import styles from '../styles/Navbar/Navbar.module.css'
+import hamburguer from '../styles/Navbar/hamburguer.module.css'
 import Image from 'next/image'
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import pt from '../public/Lang/pt.png'
 import uk from '../public/Lang/uk.webp'
+import Sidebar from './Sidebar';
+import CloseIcon from '@mui/icons-material/Close';
+
 
 const Navbar = () => {
   const router = useRouter();
-  const Link = () => {
-    router.push('/')
-  }
+  
 
   const [lang, setLang] = useState(false)
   useEffect(() => {
@@ -46,9 +48,19 @@ const Navbar = () => {
     }
   }
 
+
+  const [SidebarMenu, setSidebarMenu] = useState(false)
+  const ActiveteSidebar = () => {
+    setSidebarMenu(!SidebarMenu)
+  }
+
   return (
     <nav className={styles.Navbar}>
-    <a onClick={() => {Link()}} id="title">FruitsFlavours</a>
+      <Sidebar on={SidebarMenu}><CloseIcon onClick={() => {ActiveteSidebar()}}/></Sidebar>
+    <div className={hamburguer.menubtn} onClick={() => {ActiveteSidebar()}}>
+    <div className={hamburguer.menubtn__burger}></div>
+  </div>
+    <a id="title">FruitsFlavours</a>
     <div className={styles.navcontainer}>
     <div className={styles.Searchbar}>
       {lang ? 

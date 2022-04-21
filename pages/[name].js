@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import tablestyles from '../styles/Fruits/Table.module.css'
 import data from '../data.json'
+import CloseIcon from '@mui/icons-material/Close';
 
 const Fruit = () => {
   const router = useRouter();
@@ -48,8 +49,15 @@ const Fruit = () => {
       setLang(true)
     }
   }, [])
+  const [TempImg, setTempImg] = useState()
+  const [Model, setModel] = useState(false)
   
- 
+  const imgshower = (imgsrc) => {
+    setTempImg(imgsrc)
+    setModel(true)
+
+  }
+
   return (
     <>
     {
@@ -82,12 +90,18 @@ const Fruit = () => {
       <button onClick={() => {router.push("/#content")}}>Go Back</button>
       :<button onClick={() => {router.push("/#content")}}>Voltar</button>
       }
+      {Model &&
+      <div img={TempImg} className={styles.imgshowercontainer}>
+      <div className={styles.imgshoweropen}>
+      <CloseIcon onClick={() => setModel(!Model)}/>
+        <Image layout="responsive" src={`/api/imagefetcher?url=${encodeURIComponent(fruiten.Url)}`}  width={700} height={700}/>
+      </div>
+      </div>
+      }
       <div data-aos='fade-up' className={styles.content}>
-        <div className={styles.img}>  
-        {lang ?
-        <Image layout="responsive" src={`/api/imagefetcher?url=${encodeURIComponent(fruiten.Url)}`}  width={300} height={300}/>
-        :<Image layout="responsive" src={`/api/imagefetcher?url=${encodeURIComponent(fruitpt.Url)}`}  width={300} height={300}/>
-        }
+        <div className={styles.img}>
+        <Image onClick={() => imgshower(`/api/imagefetcher?url=${encodeURIComponent(fruiten.Url)}`)} layout="responsive" src={`/api/imagefetcher?url=${encodeURIComponent(fruiten.Url)}`}  width={300} height={300}/>
+
         </div>
         <div className={styles.name}>
         {lang ? 
@@ -150,6 +164,8 @@ const Fruit = () => {
     </>
   )
 }
+
+
 
 export default Fruit
 

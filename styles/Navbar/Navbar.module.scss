@@ -48,16 +48,13 @@ nav.Navbar {
         margin-left: 20px;
         outline: none;
         border: none;
-        z-index: 100;
+        margin-right: auto;
+        z-index: 15;
         background: none;
         text-decoration: none;
         color: invert($bg);
         font-size: 2.5rem;
         font-weight: 700;
-        &:hover {
-            cursor: pointer;
-            text-decoration: underline;
-        }
     }
     div.Searchbar {
         border-radius: $bradius;
@@ -158,10 +155,36 @@ nav.Navbar {
 }
 @media screen and (max-width: 500px) {
     nav.Navbar {
+        div.navcontainer {
+            display: flex;
+            margin-right: 5px;
+            select {
+                    padding: 0px 10px 0px 10px;
+                    border: 1px solid rgb(71, 71, 71);
+                    outline: none;
+                    color: white;
+                    border-radius: 20px;
+                    font-weight: 800;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-size: 0.8rem;
+                    background-color: #2e2e2e;
+                    cursor: pointer;
+                    option {
+                        cursor: pointer;
+    
+                    }
+                    &:hover {
+                        background-color: #3f3f3f;
+                        
+                    }
+                    
+                }
+        }
         a {
             margin: 0;
-            font-size : 1.2rem;
-            z-index: 10;
+            font-size : 1rem;
+            padding-right: 2px;
+            z-index: 2;
         }
         div.Searchbar {
             margin: 0;
@@ -174,9 +197,6 @@ nav.Navbar {
                 border-radius: 0px $bradius $bradius 0px;
                 background-color: $bg-btn;
             }
-        }
-        select {
-            margin: 0;
         }
     }
 }

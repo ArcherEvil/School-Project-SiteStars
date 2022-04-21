@@ -89,7 +89,6 @@ main .presentation .Stp h4 {
   font-weight: 200;
   line-height: 2.8vw;
   text-align: justify;
-  height: 100%;
   font-size: 1.5rem;
 }
 
@@ -195,7 +194,7 @@ main .content .cardlist {
     background: linear-gradient(to right, #58c883, #fef358, #16c163, #96bc0d);
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
   }
@@ -215,7 +214,11 @@ main .content .cardlist {
   }
   main .presentation .Stp h4 {
     width: 90%;
-    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    line-height: 1.4rem;
+    text-align: justify;
+    font-size: 0.8rem;
   }
   main .presentation .Stp .stimg {
     width: 60%;

@@ -6,6 +6,7 @@ import Aos from 'aos';
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Images from '../components/Images'
+import CloseIcon from '@mui/icons-material/Close';
 
 const galeria = () => {
   const [lang, setLang] = useState(false)
@@ -21,6 +22,15 @@ const galeria = () => {
     }
   }, [])
 
+
+  const names = {
+    en : ['Banana', 'Eddoes', 'Cocoa', 'Carambola', 'Breadfruit', 'Jackfruit', 'Lemon', 'Safou', 'Papaya'],
+    pt : ['Banana Pão', 'Batata Doce', 'Cacau', 'Carambola', 'Fruta Pão', 'Jaca', 'Limão', 'Safú', 'Mamão']
+    
+  }
+  console.log(Object.entries(Images))
+
+  const range = Array.from({length: names.pt.length}, (x, i) => i);
   return (
     <main className={styles.main}>
     <Head>
@@ -40,23 +50,63 @@ const galeria = () => {
     <h2 data-aos='fade-down'>Uma coleção de todas as fotografias de nossa autoridade, das frutas apresentadas no site.</h2>
     </>}
     <div className={styles.imageshower}>
-        {Object.entries(Images).map(image => <Imageshow name={image[0]} image={image[1]}/>)}
+    {lang ? 
+        <>
+        {range.map(index => <ImageSlider key={names.en[index]} name={names.en[index]} img={Object.entries(Images)[index][1]}/>)}
+        </>
+        :<>
+        {range.map(index => <ImageSlider key={names.pt[index]} name={names.pt[index]} img={Object.entries(Images)[index][1]}/>)}
+        </>
+        }
     </div>
     </main>
   )
 }
 
-import React from 'react'
 
-export const Imageshow = ({name, image}) => {
-  console.log(image)
+const ImageSlider = ({name, img}) => {
+
+  const numberimg = img.length
+  console.log(numberimg)
+  const oneimg = false
+
+  if (numberimg == 1) {
+    oneimg = true
+  }
+
+  const [TempImg, setTempImg] = useState()
+  const [Model, setModel] = useState(false)
+  const [Sizes, setSizes] = useState()
+  
+  
+  const imgshower = (imgsrc, sizes) => {
+    setTempImg(imgsrc)
+    setModel(true)
+    setSizes(sizes)
+
+  }
+
   return (
     <div>
-    <p>{name}</p>
-    {image.map(item => <img src={item.src}/>)}
+    {Model &&
+      <div img={TempImg} className={styles.imgshowercontainer}>
+      <div className={styles.imgshoweropen}>
+      <CloseIcon onClick={() => setModel(!Model)}/>
+        <Image layout="responsive" src={TempImg}  width={Sizes[0]} height={Sizes[1]}/>
+      </div>
+      </div>
+      }
+      <p>{name}</p>
+      {oneimg ?
+      <div className={styles.imagecontainerone}>
+        {img.map(item => <div id='one' key={name} number={numberimg} className={styles.image}><Image onClick={() => imgshower(item.src, [item.width, item.height])} src={item.src} width={item.width} height={item.height}/></div>)}
+      </div>
+      :<div className={styles.imagecontainer}>
+        {img.map(item => <div key={name} number={numberimg} className={styles.image}><Image onClick={() => imgshower(item.src, [item.width, item.height])} src={item.src} width={item.width} height={item.height}/></div>)}
+      </div>
+      }
     </div>
   )
 }
-
 
 export default galeria
