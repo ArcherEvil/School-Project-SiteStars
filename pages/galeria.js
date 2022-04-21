@@ -8,7 +8,7 @@ import Head from 'next/head'
 import Images from '../components/Images'
 import CloseIcon from '@mui/icons-material/Close';
 
-const galeria = () => {
+const Galeria = () => {
   const [lang, setLang] = useState(false)
   useEffect(() => {
     Aos.init({duration : 2000})
@@ -109,4 +109,4 @@ const ImageSlider = ({name, img}) => {
   )
 }
 
-export default galeria
+export default Galeria
