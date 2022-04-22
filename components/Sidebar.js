@@ -21,6 +21,7 @@ const Sidebar = (props) => {
 
       const Link = (names) => {
         router.push(names)
+        
       }
 
     return (

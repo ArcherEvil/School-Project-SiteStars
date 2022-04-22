@@ -74,7 +74,7 @@ main.main {
                     &:hover {
                         transform: scale(1.05)
                     }
-                    max-height: 300px;
+                    max-height: 400px;
                 }
             }
             .imagecontainerone {   
@@ -93,7 +93,8 @@ main.main {
                     &:hover {
                         transform: scale(1.05)
                     }
-                    max-height: 300px;
+                    
+                    
                 }
             }
         }
@@ -132,15 +133,19 @@ main.main {
                 }
                 .imagecontainer {
                     justify-content: flex-start;
+                    flex-direction: column;
                     overflow-x: auto;
                     #one {
                         margin-left: center;
                         margin-right: center;
                     }
                     .image {
-                        
+                        border-radius: 0%;
                         min-width: 50%;
                         max-width: 50%;
+                        &:hover {
+                            transform: scale(1)
+                        }
                     }
                 }
                 .imagecontainerone {
@@ -151,9 +156,14 @@ main.main {
                         margin-right: center;
                     }
                     .image {
-                        
                         min-width: 50%;
                         max-width: 50%;
+                        border-radius: 0%;
+                        min-width: 50%;
+                        max-width: 50%;
+                        &:hover {
+                            transform: scale(1)
+                        }
                     }
                 }
             }
