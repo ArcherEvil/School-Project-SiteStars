@@ -63,7 +63,7 @@
       "ID": 2,
       "Name": "Fruta pão",
       "Cientific": "Artocarpus altilis",
-      "Url": "https://i.imgur.com/zQQ4TgC.png",
+      "Url": "https://i.imgur.com/8hjiJsZ.png",
       "First Sentence": "Popularmente conhecida como fruteira cujo o fruto é fruta pão é uma árvore frutífera, aparentada com a jaca.",
       "Description": "As frutas-pão dividem-se em duas variedades: a apyrena, conhecida por fruta-pão de massa, que não possui sementes, e a seminífera, conhecida por fruta-pão de caroço, que apresenta numerosas sementes comestíveis e polpa não comestível. A fruta-pão também é uma árvore ornamental, de grande porte e crescimento rápido, podendo alcançar 20 metros de altura. Longeva, vive cerca de 80 anos. Sua folhas são muito bonitas, grandes, perenes e profundamente lobadas. Se for machucada, exsuda um látex leitoso que tem aplicações artesanais, para calafetação e como cola. A fruta-pão é uma planta monoica, isto é, com os dois sexos na mesma planta e flores separadas, masculinas e femininas. Os frutos são grandes, redondos como melões, e chegam a pesar 3 quilogramas e de cor verde-amarelada.",
       "Nutricional": {
@@ -324,25 +324,25 @@
       "First Sentence": "Jackfruit scientifically known as artocarpus heterophyllus, is a tropical tree whose fruit is jackfruit. Tree with evergreen foliage, about 20 meters high and with a trunk 30 to 60 centimeters in diameter covered by a thick bark.",
       "Description": "Cauliflora plant, with male flowers grouped in claviform spikes and female flowers in compact spikes. The fruits are oval in shape, are born directly from the trunk and the most robust branches and weigh an average of 10 kg. The edible part of jackfruit is the fruit (berries) found inside the syncarp, usually exceeding a hundred and can be of two varieties: hard, which produces larger fruits, and soft, in general sweeter, the fruit is smaller.",
       "Nutricional": {
-        "Vitaminas": {
-          "Vitamina A": "5μg (1%)",
-          "Tiamina (B1)": "0,105mg (9%)",
-          "Riboflavina (B2)": "0,055mg (5%)",
-          "Niacina (B3)": "0,92mg (6%)",
-          "Ácido pantotênico (B5)": "0,235mg (5%)",
-          "Vitamina B6": "0,329mg (25%)",
-          "Vitamina C": "13,8mg (17%)",
-          "Vitamina E": "0,34mg (2%)",
-          "Folato (B9)": "24µg (6%)"
+        "Vitamins": {
+          "Vitamin A": "5μg (1%)",
+          "Thiamine (B1)": "0.105mg (9%)",
+          "Riboflavin (B2)": "0.055mg (5%)",
+          "Niacin (B3)": "0.92mg (6%)",
+          "Pantothenic acid (B5)": "0.235mg (5%)",
+          "Vitamin B6": "0.329mg (25%)",
+          "Vitamin C": "13.8mg (17%)",
+          "Vitamin E": "0.34mg (2%)",
+          "Folate (B9)": "24µg (6%)"
         },
-        "Minerais": {
-          "Cálcio": "24mg (2%)",
-          "Ferro": "0,23mg (2%)",
-          "Magnésio": "29mg (8%)",
-          "Manganês": "0,043mg (2%)",
-          "Fosforo": "21mg (3%)",
-          "Zinco": "0,13mg (1%)",
-          "Potássio": "448mg (10%)"
+        "Minerals": {
+          "Calcium": "24mg (2%)",
+          "Iron": "0.23mg (2%)",
+          "Magnesium": "29mg (8%)",
+          "Manganese": "0.043mg (2%)",
+          "Phosphorus": "21mg (3%)",
+          "Zinc": "0.13mg (1%)",
+          "Potassium": "448mg (10%)"
         }
       }
     },
@@ -354,24 +354,24 @@
       "First Sentence": "Banana bread is a pseudoberry of the banana tree, a perennial herbaceous plant of the musaceae family and is currently cultivated in practically all tropical regions of the planet.",
       "Description": "The term banana refers to fruits with a soft and sweet pulp that can be consumed raw, however, there are cultivated varieties, with a tougher pulp and firmer skin, called plantains or plantains that are consumed cooked (roasted). , boiled and fried), constituting a staple food of tropical regions, in this case São Tomé and Príncipe. \n\n Bananas are formed in bunches, similar to grapes, superior to pseudostems that are born from a true underground stem whose longevity reaches 15 years or more. From the lower part of the banana bunch, still immature, a tassel emerges and, at its end, a cone of differentiated color and consistency, which is the banana flower, stands out. \n\nIt is green when immature, reaching yellow when mature. A bunch normally has twenty bananas and can weigh from 30 to 50 kg. Its shape is elongated, but it can vary greatly in shape depending on the crop varieties. After being cut, the banana darkens very quickly, due to oxidation in contact with the air.",
       "Nutricional": {
-        "Vitaminas": {
-          "Tiamina (B1)": "0,031mg (3%)",
-          "Riboflavina (B2)": "0,073mg (6%)",
-          "Niacina (B3)": "0,665mg (4%)",
-          "Ácido pantotênico (B5)": "0,334mg (7%)",
-          "Vitamina B6": "0,4mg (31%)",
-          "Vitamina C": "8,7mg (10%)",
-          "Colina": "9,8mg (2%)",
-          "Folato (B9)": "20µg (5%)"
+        "Vitamins": {
+          "Thiamine (B1)": "0.031mg (3%)",
+          "Riboflavin (B2)": "0.073mg (6%)",
+          "Niacin (B3)": "0.665mg (4%)",
+          "Pantothenic acid (B5)": "0.334mg (7%)",
+          "Vitamin B6": "0.4mg (31%)",
+          "Vitamin C": "8.7mg (10%)",
+          "Choline": "9.8mg (2%)",
+          "Folate (B9)": "20µg (5%)"
         },
-        "Minerais": {
-          "Ferro": "0,26mg (2%)",
-          "Magnésio": "27mg (8%)",
-          "Manganês": "0,27mg (13%)",
-          "Fosforo": "22mg (3%)",
-          "Potássio": "358mg (8%)",
-          "Sódio": "1mg (0%)",
-          "Zinco": "0,15mg (2%)"
+        "Minerals": {
+          "Iron": "0.26mg (2%)",
+          "Magnesium": "27mg (8%)",
+          "Manganese": "0.27mg (13%)",
+          "Phosphorus": "22mg (3%)",
+          "Potassium": "358mg (8%)",
+          "Sodium": "1mg (0%)",
+          "Zinc": "0.15mg (2%)"
         }
       }
     },
@@ -383,28 +383,28 @@
       "First Sentence": "Popularly known as fruit tree whose fruit is breadfruit is a fruit tree, related to jackfruit.",
       "Description": "Breadfruit is divided into two varieties: apyrena, known as dough breadfruit, which has no seeds, and seminiferous, known as stone breadfruit, which has numerous edible seeds and inedible pulp. Breadfruit is also an ornamental tree, large and fast growing, reaching 20 meters in height. Longeva, lives about 80 years. Its leaves are very beautiful, large, evergreen and deeply lobed. If bruised, it exudes a milky latex that has artisanal applications, for caulking and as glue. Breadfruit is a monoecious plant, that is, with both sexes on the same plant and separate flowers, male and female. The fruits are large, round like melons, and can weigh up to 3 kilograms and are yellow-green in color.",
       "Nutricional": {
-        "Vitaminas": {
-          "Vitamina A": "22µg (3%)",
-          "Tiamina (B1)": "0,11mg (10%)",
-          "Riboflavina (B2)": "0,03mg (3%)",
-          "Niacina (B3)": "0,9mg (6%)",
-          "Ácido pantotênico (B5)": "0,457mg (9%)",
-          "Vitamina B6": "0,1mg (8%)",
-          "Vitamina C": "9,8mg (35%)",
-          "Colina": "9,8mg (2%)",
-          "Folato (B9)": "14µg (4%)",
-          "Vitamina E": "0,1mg (1%)",
-          "Vitamina K": "0,5μg (0%)"
+        "Vitamins": {
+          "Vitamin A": "22µg (3%)",
+          "Thiamine (B1)": "0.11mg (10%)",
+          "Riboflavin (B2)": "0.03mg (3%)",
+          "Niacin (B3)": "0.9mg (6%)",
+          "Pantothenic acid (B5)": "0.457mg (9%)",
+          "Vitamin B6": "0.1mg (8%)",
+          "Vitamin C": "9.8mg (35%)",
+          "Choline": "9.8mg (2%)",
+          "Folate (B9)": "14µg (4%)",
+          "Vitamin E": "0.1mg (1%)",
+          "Vitamin K": "0.5μg (0%)"
         },
-        "Minerais": {
-          "Cálcio": "17mg (2%)",
-          "Ferro": "0,54mg (4%)",
-          "Magnésio": "25mg (7%)",
-          "Manganês": "0,06mg (3%)",
-          "Fosforo": "30mg (4%)",
-          "Potássio": "490mg (10%)",
-          "Sódio": "2mg (0%)",
-          "Zinco": "0,12mg (1%)"
+        "Minerals": {
+          "Calcium": "17mg (2%)",
+          "Iron": "0.54mg (4%)",
+          "Magnesium": "25mg (7%)",
+          "Manganese": "0.06mg (3%)",
+          "Phosphorus": "30mg (4%)",
+          "Potassium": "490mg (10%)",
+          "Sodium": "2mg (0%)",
+          "Zinc": "0.12mg (1%)"
         }
       }
     },
@@ -416,11 +416,11 @@
       "First Sentence": "Commonly known as safuzeiro, it is an evergreen tree whose fruit is safu, native to both São Tomé and Príncipe.",
       "Description": "It can reach about 30 to 40 meters in height with a trunk with 60 to 80 centimeters in diameter. This food is also a favorite delicacy of parrots, parakeets, and other wild trees. The reproduction of this tree, which can be considered a visual attraction, occurs once a year between the months of January and April and consumption in this period of time is recommended because a technique for storing the product throughout the year has not yet been developed.",
       "Nutricional": {
-        "Valor Nutricional": {
-          "Vitamina A": "634,4mg",
-          "Vitamina C": "23,12mg",
-          "Proteínas": "13,54g",
-          "Carboidratos": "8,93g"
+        "Nutritional value": {
+          "Vitamin A": "634.4mg",
+          "Vitamin C": "23.12mg",
+          "Protein": "13.54g",
+          "Carbohydrates": "8.93g"
         }
       }
     },
@@ -432,27 +432,27 @@
       "Description": "Vibrant yellow in color, with a star shape (in English, it is called star fruit), Averrhoa commonly known as carambola carambola fruit has a bittersweet flavor, with a color ranging from green to yellow, depending on the degree of maturation, also considered a backyard fruit, because its cultivation is not done in scale, being produced essentially in farms, backyards, farms and orchards.",
       "First Sentence": "Carambola is very rich in vitamin A, C and a good source of fiber, but it also inspires care for those living with chronic kidney disease, in controversial it serves to fight different fevers.",
       "Nutricional": {
-        "Vitaminas": {
-          "Vitamina A": "66µg (3%)",
-          "Tiamina (B1)": "0,014mg (1%)",
-          "Riboflavina (B2)": "0,016mg (1%)",
-          "Niacina (B3)": "0,367mg (2%)",
-          "Ácido pantotênico (B5)": "0,391mg (8%)",
-          "Vitamina B6": "0,017mg (1%)",
-          "Folato (B9)": "12µg (3%)",
-          "Colina": "7,6mg (2%)",
-          "Vitamina C": "34,4mg (41%)",
-          "Vitamina E": "0,15mg (1%)"
+        "Vitamins": {
+          "Vitamin A": "66µg (3%)",
+          "Thiamine (B1)": "0.014mg (1%)",
+          "Riboflavin (B2)": "0.016mg (1%)",
+          "Niacin (B3)": "0.367mg (2%)",
+          "Pantothenic acid (B5)": "0.391mg (8%)",
+          "Vitamin B6": "0.017mg (1%)",
+          "Folate (B9)": "12µg (3%)",
+          "Choline": "7.6mg (2%)",
+          "Vitamin C": "34.4mg (41%)",
+          "Vitamin E": "0.15mg (1%)"
         },
-        "Minerais": {
-          "Cálcio": "3mg (0%)",
-          "Ferro": "0,08mg (1%)",
-          "Magnésio": "10mg (3%)",
-          "Manganês": "0,037mg (2%)",
-          "Fosforo": "12mg (2%)",
-          "Potássio": "133mg (3%)",
-          "Sódio": "2mg (0%)",
-          "Zinco": "0,12mg (1%)"
+        "Minerals": {
+          "Calcium": "3mg (0%)",
+          "Iron": "0.08mg (1%)",
+          "Magnesium": "10mg (3%)",
+          "Manganese": "0.037mg (2%)",
+          "Phosphorus": "12mg (2%)",
+          "Potassium": "133mg (3%)",
+          "Sodium": "2mg (0%)",
+          "Zinc": "0.12mg (1%)"
         }
       }
     },
@@ -464,26 +464,26 @@
       "First Sentence": "Tropical fruit born from the guava tree, a tree of the Psidium guajava species, of the Myrtaceae family.",
       "Description": "The fruit consists of a berry, fleshy, green, yellowish or purple skin, with a smooth or irregular surface and inside, there is a pink pulp containing dozens of small hard seeds, but which can be ingested without problems. This fruit is used in different products, such as guava, sweets, jams, juices, ice cream and savory sauces, sweet and sour and guava oil (rich in linoleic acid, such as fatty acid) and is also known for having a lot of vitamin C. as a warning not to excessive consumption of this fruit as it can cause constipation, on the other hand, it improves the health of the gastrointestinal tract, increases the body's defenses, favors weight loss and promotes skin health.",
       "Nutricional": {
-        "Vitaminas": {
-          "Vitamina A": "31µg (4%)",
-          "Tiamina (B1)": "0,067mg (6%)",
-          "Riboflavina (B2)": "0,04mg (3%)",
-          "Niacina (B3)": "1,084mg (7%)",
-          "Ácido pantotênico (B5)": "0,451mg (9%)",
-          "Vitamina B6": "0,11mg (8%)",
-          "Folato (B9)": "49µg (12%)",
-          "Vitamina C": "228,3mg (275%)",
-          "Vitamina K": "2,2μg (2%)"
+        "Vitamins": {
+          "Vitamin A": "31µg (4%)",
+          "Thiamine (B1)": "0.067mg (6%)",
+          "Riboflavin (B2)": "0.04mg (3%)",
+          "Niacin (B3)": "1.084mg (7%)",
+          "Pantothenic acid (B5)": "0.451mg (9%)",
+          "Vitamin B6": "0.11mg (8%)",
+          "Folate (B9)": "49µg (12%)",
+          "Vitamin C": "228.3mg (275%)",
+          "Vitamin K": "2.2μg (2%)"
         },
-        "Minerais": {
-          "Cálcio": "18mg (2%)",
-          "Ferro": "0,26mg (2%)",
-          "Magnésio": "22mg (6%)",
-          "Manganês": "0,15mg (7%)",
-          "Fosforo": "40mg (6%)",
-          "Potássio": "417mg (9%)",
-          "Sódio": "2mg (0%)",
-          "Zinco": "0,23mg (2%)"
+        "Minerals": {
+          "Calcium": "18mg (2%)",
+          "Iron": "0.26mg (2%)",
+          "Magnesium": "22mg (6%)",
+          "Manganese": "0.15mg (7%)",
+          "Phosphorus": "40mg (6%)",
+          "Potassium": "417mg (9%)",
+          "Sodium": "2mg (0%)",
+          "Zinc": "0.23mg (2%)"
         }
       }
     },
@@ -495,26 +495,26 @@
       "First Sentence": "The orange is the fruit of the orange tree, a tree of the Rutaceae family and as its name already reveals orange.",
       "Description": "The orange flavor varies from sweet to slightly acidic, but in nature there are also extremely acidic oranges, which belong to another species, Citrus aurantium (more abundant in São Tomé and Príncipe and commonly known as orange of the bush). Orange is well known for being a source mainly of vitamin C. It can be consumed by peeling and eating it naturally, or squeezed to obtain juice (The most efficient way to benefit from all its nutrients), outer peel can also be used in various culinary dishes, as an ornament, or even to add some flavor. The albedo, the white inner layer of the bark, is rarely used, despite having a slightly sweet taste. It is recommended to \"break\" the acidic flavor of the orange in the mouth, after finishing consuming the fruit.",
       "Nutricional": {
-        "Vitaminas": {
-          "Vitamina A": "11µg (1%)",
-          "Tiamina (B1)": "0,087mg (8%)",
-          "Riboflavina (B2)": "0,04mg (3%)",
-          "Niacina (B3)": "0,282mg (2%)",
-          "Ácido pantotênico (B5)": "0,25mg (5%)",
-          "Vitamina B6": "0,06mg (5%)",
-          "Folato (B9)": "30µg (8%)",
-          "Colina": "8,4mg (2%)",
-          "Vitamina C": "53,2mg (64%)",
-          "Vitamina E": "0,18mg (1%)"
+        "Vitamins": {
+          "Vitamin A": "11µg (1%)",
+          "Thiamine (B1)": "0.087mg (8%)",
+          "Riboflavin (B2)": "0.04mg (3%)",
+          "Niacin (B3)": "0.282mg (2%)",
+          "Pantothenic acid (B5)": "0.25mg (5%)",
+          "Vitamin B6": "0.06mg (5%)",
+          "Folate (B9)": "30µg (8%)",
+          "Choline": "8.4mg (2%)",
+          "Vitamin C": "53.2mg (64%)",
+          "Vitamin E": "0.18mg (1%)"
         },
-        "Minerais": {
-          "Cálcio": "40mg (4%)",
-          "Ferro": "0,1mg (1%)",
-          "Magnésio": "10mg (3%)",
-          "Manganês": "0,025mg (1%)",
-          "Fosforo": "14mg (2%)",
-          "Potássio": "181mg (4%)",
-          "Zinco": "0,07mg (1%)"
+        "Minerals": {
+          "Calcium": "40mg (4%)",
+          "Iron": "0.1mg (1%)",
+          "Magnesium": "10mg (3%)",
+          "Manganese": "0.025mg (1%)",
+          "Phosphorus": "14mg (2%)",
+          "Potassium": "181mg (4%)",
+          "Zinc": "0.07mg (1%)"
         }
       }
     },
@@ -526,22 +526,22 @@
       "First Sentence": "Lemon scientifically known as Citrus Limon is the fruit of a small evergreen tree. This fruit is usually found in places with a temperate climate.",
       "Description": "The fruit is developed in a tree called lemon tree whose height does not exceed 6 meters with leaves with translucent points that are supported on thorny branches and has an inflorescence that varies between the colors alb or violet. \n There are several substances in the fruit, and those found in greater concentration are citric acid and ascorbic acid. Lemon has several benefits in our life, but the ones that stand out the most are that it favors weight loss, prevents constipation, exerts gastro-protective effects, protects against infections, lowers blood pressure, improves the appearance of the skin, prevents anemia I prevented kidney stones and some types of cancer. \n When the fruit is consumed directly, that is, without any process of changing the shape of the fruit, it has a high level of energy.",
       "Nutricional": {
-        "Vitaminas": {
-          "Tiamina": "0,040mg (3%)",
-          "Riboflavina": "0,020mg (2%)",
-          "Niacina": "0,100mg (1%)",
-          "Acido pantotênico": "0,190mg (4%)",
-          "Vitamina B": "0,080 (6%)",
-          "Acido fólico": "11mg (3%)",
-          "Vitamina C": "53,0mg (68%)"
+        "Vitamins": {
+          "Thiamine": "0.040mg (3%)",
+          "Riboflavin": "0.020mg (2%)",
+          "Niacin": "0.100mg (1%)",
+          "Pantothenic acid": "0.190mg (4%)",
+          "Vitamin B": "0.080 (6%)",
+          "Folic acid": "11mg (3%)",
+          "Vitamin C": "53.0mg (68%)"
         },
-        "Minerais": {
-          "Cálcio": "26mg (3%)",
-          "Ferro": "0.60mg (5%)",
-          "Magnésio": "8mg (2%)",
-          "Fosforo": "16mg (2%)",
-          "Zinco": "0.06mg (1%)",
-          "Potássio": "138mg (1%)"
+        "Minerals": {
+          "Calcium": "26mg (3%)",
+          "Iron": "0.60mg (5%)",
+          "Magnesium": "8mg (2%)",
+          "Phosphorus": "16mg (2%)",
+          "Zinc": "0.06mg (1%)",
+          "Potassium": "138mg (1%)"
         }
       }
     },
@@ -553,24 +553,24 @@
       "First Sentence": "Annona muricata commonly known as soursop or sape-sape is a fruit of the soursop tree. The fruit has an oval shape, pale green skin, is large, weighing between 750 grams and 8 kilograms and is available all year round.",
       "Description": "It contains many pimples, surrounded by a white pulp, with a bittersweet taste, very delicate. Soursop is a small tree (reaching 4 to 6 meters in height) and found in almost all tropical forests, with bright green leaves and large, isolated yellow flowers that grow on the trunk and branches. Soursop grows in well-draining soils and thrives at a slightly acidic pH of 5.5 to 6.5. The fruits are harvested when they reach physiological maturity, when they have a dull green color. The propagation of soursop can be done through seeds, cuttings, grafting or air layering. The last method of propagation is the most recommended, and one of the oldest methods used for plant reproduction. In some regions the leaves are used for therapeutic teas in the treatment of coughs, hyperglycemia and the seeds against parasites.",
       "Nutricional": {
-        "Vitaminas": {
-          "Tiamina (B1)": "0,07mg (6%)",
-          "Riboflavina (B2)": "0,05mg (4%)",
-          "Niacina (B3)": "0,9mg (6%)",
-          "Ácido pantotênico (B5)": "0,253mg (5%)",
-          "Vitamina B6": "0,06mg (5%)",
-          "Folato (B9)": "14µg (4%)",
-          "Colina": "7,6mg (2%)",
-          "Vitamina C": "20,6mg (25%)"
+        "Vitamins": {
+          "Thiamine (B1)": "0.07mg (6%)",
+          "Riboflavin (B2)": "0.05mg (4%)",
+          "Niacin (B3)": "0.9mg (6%)",
+          "Pantothenic acid (B5)": "0.253mg (5%)",
+          "Vitamin B6": "0.06mg (5%)",
+          "Folate (B9)": "14µg (4%)",
+          "Choline": "7.6mg (2%)",
+          "Vitamin C": "20.6mg (25%)"
         },
-        "Minerais": {
-          "Cálcio": "14mg (1%)",
-          "Ferro": "0,6mg (5%)",
-          "Magnésio": "21mg (6%)",
-          "Fosforo": "27mg (4%)",
-          "Potássio": "278mg (6%)",
-          "Sódio": "14mg (1%)",
-          "Zinco": "0,1mg (1%)"
+        "Minerals": {
+          "Calcium": "14mg (1%)",
+          "Iron": "0.6mg (5%)",
+          "Magnesium": "21mg (6%)",
+          "Phosphorus": "27mg (4%)",
+          "Potassium": "278mg (6%)",
+          "Sodium": "14mg (1%)",
+          "Zinc": "0.1mg (1%)"
         }
       }
     },
@@ -582,25 +582,25 @@
       "First Sentence": "Scientifically known as carica papaya, papaya is a semi-herbaceous tree, hollow inside and cylindrical. It is a tropical tree, fast growing and can reach 8 meters in height.",
       "Description": "At the top of the tree there are no branches, but large leaves with yellow veins supported by long petioles, when they fall, during the plant's growth the leaves leave large scars on the stem. Papaya is a hermaphrodite plant that produces yellow or white flowers whose flowering occurs between 9 to 10 months after planting, producing different varieties of it, taking into account their flowers (female, with exclusively female flowers, produce rounded fruits after pollination; females, with complete (perfect) flowers, generate the commercially preferred fruits, elongated, with thicker pulp). Papaya is a large, fleshy fruit, with a soft, dense, aromatic pulp that varies in color between yellow and red. Its bark is smooth and thin, green at harvest and gradually turning yellow or orange with ripening. The inner cavity of the fruit contains numerous black, edible seeds with a spicy taste, coated with a mucilaginous substance. Papaya is a sensitive fruit that must be packaged, transported and stored under special care, so that it does not suffer injuries that make its consumption unfeasible.",
       "Nutricional": {
-        "Vitaminas": {
-          "Vitamina A": "47µg (6%)",
-          "Tiamina": "0,023mg (2%)",
-          "Riboflavina": "0,027mg (2%)",
-          "Niacina": "0,357mg (2%)",
-          "Acido pantotênico": "0,191mg (4%)",
-          "Acido fólico": "38µg (10%)",
-          "Vitamina C": "62mg (75%)",
-          "Vitamina E": "0,3 (2%)",
-          "Vitamina K": "2,6µg (2%)"
+        "Vitamins": {
+          "Vitamin A": "47µg (6%)",
+          "Thiamine": "0.023mg (2%)",
+          "Riboflavin": "0.027mg (2%)",
+          "Niacin": "0.357mg (2%)",
+          "Pantothenic acid": "0.191mg (4%)",
+          "Folic acid": "38µg (10%)",
+          "Vitamin C": "62mg (75%)",
+          "Vitamin E": "0.3 (2%)",
+          "Vitamin K": "2.6µg (2%)"
         },
-        "Minerais": {
-          "Cálcio": "20mg (2%)",
-          "Ferro": "0,25mg (2%)",
-          "Magnésio": "21mg (6%)",
-          "Manganês": "0.04mg (2%)",
-          "Potássio": "182mg (4%)",
-          "Sódio": "8mg (1%)",
-          "Zinco": "0.08mg (1%)"
+        "Minerals": {
+          "Calcium": "20mg (2%)",
+          "Iron": "0.25mg (2%)",
+          "Magnesium": "21mg (6%)",
+          "Manganese": "0.04mg (2%)",
+          "Potassium": "182mg (4%)",
+          "Sodium": "8mg (1%)",
+          "Zinc": "0.08mg (1%)"
         }
       }
     },
@@ -612,21 +612,21 @@
       "First Sentence": "Spondias dulcis, is a species of the family anacardiaceae and popularly known by the name of Caja-mango. The mango tree can reach up to 15 meters in height.",
       "Description": "The fruit is cylindrical in shape, 6 to 10 cm long, 5 to 9 cm in diameter, weighing up to 380 G.it is a fruit with a smooth and thin skin, which has a bright yellow color, very aromatic and juicy pulp, with a sweet and sour taste when ripe, with an endocarp coated with irregular (soft) spines. It is widely used in the preparation of juices, cocktails, liqueurs and ice cream. In addition, it is important to know that the fruit has amounts of nutritional properties and few calories. Therefore, combined with a balanced diet and healthy habits, it can offer health benefits, such as: contribute to the proper functioning of the digestive system, cooperating during the digestion process and helping to avoid constipation; act as an antioxidant, helping to prevent premature aging and heart diseases; collaborate for healthy skin and strengthening bones, hair and nails; benefit the nervous system, participating in the transmission of nerve impulses; improve immunity, helping the body against colds and flu; provide energy, reducing feelings of fatigue and tiredness and cooperating for a better performance in physical exercises.",
       "Nutricional": {
-        "Nutricional Value": {
-          "Valor energético": "45.6kcal (2%)",
-          "Carboidratos": "11,4g (4%)",
-          "Proteínas": "1,3g (2%)",
-          "Fibra alimentar": "2,6g (10%)",
-          "Ácido pantotênico (B5)": "0,235mg (5%)",
-          "Fibras solúveis": "0,1g",
-          "Vitamina C": "26,7mg (59%)",
-          "Cálcio": "12,7mg (1%)",
-          "Fósforo": "24,5mg (4%)",
-          "Manganês": "0,1mg (4%)",
-          "Magnésio": "11,3mg (4%)",
-          "Ferro": "0,2mg (1%)",
-          "Potássio": "119,4mg",
-          "Piridoxina B6": "0,1mg"
+        "Nutritional Value": {
+          "Energy value": "45.6kcal (2%)",
+          "Carbohydrates": "11.4g (4%)",
+          "Proteins": "1.3g (2%)",
+          "Dietary fiber": "2.6g (10%)",
+          "Pantothenic acid (B5)": "0.235mg (5%)",
+          "Soluble fiber": "0.1g",
+          "Vitamin C": "26.7mg (59%)",
+          "Calcium": "12.7mg (1%)",
+          "Phosphorus": "24.5mg (4%)",
+          "Manganese": "0.1mg (4%)",
+          "Magnesium": "11.3mg (4%)",
+          "Iron": "0.2mg (1%)",
+          "Potassium": "119.4mg",
+          "Pyridoxine B6": "0.1mg"
         }
       }
     }
