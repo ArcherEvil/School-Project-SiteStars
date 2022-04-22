@@ -65,6 +65,7 @@ main.main {
                 align-items: center;
                 gap: 2vw;
                 .image {
+                    overflow-x: auto;
                     border-radius: 20%;
                     min-width: 25%;
                     transition: 200ms ease-out;

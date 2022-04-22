@@ -95,6 +95,7 @@ main.main div.imageshower div .imagecontainer {
 }
 
 main.main div.imageshower div .imagecontainer .image {
+  overflow-x: auto;
   border-radius: 20%;
   min-width: 25%;
   -webkit-transition: 200ms ease-out;
