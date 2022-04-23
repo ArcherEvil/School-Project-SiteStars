@@ -52,10 +52,10 @@ const Galeria = () => {
     <div className={styles.imageshower}>
     {lang ? 
         <>
-        {range.map(index => <ImageSlider key={names.en[index]} name={names.en[index]} img={Object.entries(Images)[index][1]}/>)}
+        {range.map(index => <ImageSlider ID={index} key={names.en[index]} name={names.en[index]} img={Object.entries(Images)[index][1]}/>)}
         </>
         :<>
-        {range.map(index => <ImageSlider key={names.pt[index]} name={names.pt[index]} img={Object.entries(Images)[index][1]}/>)}
+        {range.map(index => <ImageSlider ID={index} key={names.pt[index]} name={names.pt[index]} img={Object.entries(Images)[index][1]}/>)}
         </>
         }
     </div>
@@ -64,7 +64,7 @@ const Galeria = () => {
 }
 
 
-const ImageSlider = ({name, img}) => {
+const ImageSlider = ({name, img, ID}) => {
 
   const numberimg = img.length
   console.log(numberimg)
@@ -99,10 +99,10 @@ const ImageSlider = ({name, img}) => {
       <p>{name}</p>
       {oneimg ?
       <div className={styles.imagecontainerone}>
-        {img.map(item => <div id='one' key={name} number={numberimg} className={styles.image}><Image onClick={() => imgshower(item.src, [item.width, item.height])} src={item.src} width={item.width} height={item.height}/></div>)}
+        {img.map(item => <div id={ID} key={name} number={numberimg} className={styles.image}><Image onClick={() => imgshower(item.src, [item.width, item.height])} src={item.src} width={item.width} height={item.height}/></div>)}
       </div>
       :<div className={styles.imagecontainer}>
-        {img.map(item => <div key={name} number={numberimg} className={styles.image}><Image onClick={() => imgshower(item.src, [item.width, item.height])} src={item.src} width={item.width} height={item.height}/></div>)}
+        {img.map(item => <div id={ID} key={name} number={numberimg} className={styles.image}><Image onClick={() => imgshower(item.src, [item.width, item.height])} src={item.src} width={item.width} height={item.height}/></div>)}
       </div>
       }
     </div>

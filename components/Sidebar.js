@@ -3,6 +3,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import BurstModeIcon from '@mui/icons-material/BurstMode';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
+import RememberMeIcon from '@mui/icons-material/RememberMe';
 
 const Sidebar = (props) => {
     const [lang, setLang] = useState(false)
@@ -35,6 +36,10 @@ const Sidebar = (props) => {
         <button onClick={() => {Link('/galeria')}}><BurstModeIcon/>
         {lang ? <p>Image Gallery</p>
         :<p>Galeria de Imagens</p>}
+        </button>
+        <button onClick={() => {Link('/ficha_tecnica')}}><RememberMeIcon/>
+        {lang ? <p>Credits</p>
+        :<p>Ficha Técnica</p>}
         </button>
     </aside>
   )

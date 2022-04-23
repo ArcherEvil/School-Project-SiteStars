@@ -59,13 +59,16 @@ main.main {
             }
             .imagecontainer {   
                 width: 100%;
+                overflow-x: auto;
+                padding-left: 60px;
+                padding-right: 60px;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
                 gap: 2vw;
                 .image {
-                    overflow-x: auto;
+                    
                     border-radius: 20%;
                     min-width: 25%;
                     transition: 200ms ease-out;

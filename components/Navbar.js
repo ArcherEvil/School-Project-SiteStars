@@ -54,6 +54,8 @@ const Navbar = () => {
     setSidebarMenu(!SidebarMenu)
   }
 
+  
+
   return (
     <nav className={styles.Navbar}>
       <Sidebar on={SidebarMenu}><CloseIcon onClick={() => {ActiveteSidebar()}}/></Sidebar>

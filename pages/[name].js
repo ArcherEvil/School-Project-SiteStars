@@ -57,7 +57,16 @@ const Fruit = () => {
     setModel(true)
 
   }
-
+  const SeeInGalleryButton = ({ID}) => {
+    const Link = (Index) => {
+      router.push('/galeria')
+    }
+    return (
+      <button className={styles.seeingallery}  onClick={() => {Link(ID)}}>
+        See in Gallery
+      </button>
+    )
+  }
   return (
     <>
     {
@@ -158,6 +167,7 @@ const Fruit = () => {
       <h6>{fruiten.Description}</h6>
       :<h6>{fruitpt.Description}</h6>
       }
+      <SeeInGalleryButton ID={fruiten.ID}/>
       </div>
     </main>
     }

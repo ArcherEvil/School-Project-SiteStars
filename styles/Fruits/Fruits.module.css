@@ -49,6 +49,11 @@ main.main button:active {
   border-radius: 20px;
 }
 
+main.main button.seeingallery {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 main.main h3 {
   font-size: 3rem;
   margin: 0;
@@ -198,7 +203,6 @@ main.main .content h2 {
 
 main.main .content h6 {
   margin: 0;
-  margin-bottom: 30px;
   width: 80%;
   text-align: justify;
   text-justify: inter-word;

@@ -78,6 +78,9 @@ main.main div.imageshower div p {
 
 main.main div.imageshower div .imagecontainer {
   width: 100%;
+  overflow-x: auto;
+  padding-left: 60px;
+  padding-right: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,7 +98,6 @@ main.main div.imageshower div .imagecontainer {
 }
 
 main.main div.imageshower div .imagecontainer .image {
-  overflow-x: auto;
   border-radius: 20%;
   min-width: 25%;
   -webkit-transition: 200ms ease-out;
