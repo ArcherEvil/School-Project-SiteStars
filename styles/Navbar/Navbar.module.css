@@ -49,6 +49,7 @@ nav.Navbar div.navcontainer select:hover {
 nav.Navbar a {
   margin-left: 20px;
   outline: none;
+  cursor: pointer;
   border: none;
   margin-right: auto;
   z-index: 15;
