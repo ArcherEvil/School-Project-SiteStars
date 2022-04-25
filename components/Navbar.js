@@ -54,7 +54,9 @@ const Navbar = () => {
     setSidebarMenu(!SidebarMenu)
   }
 
-  
+  const MainPage = () => {
+    router.push('/')
+  }
 
   return (
     <nav className={styles.Navbar}>
@@ -62,7 +64,7 @@ const Navbar = () => {
     <div className={hamburguer.menubtn} onClick={() => {ActiveteSidebar()}}>
     <div className={hamburguer.menubtn__burger}></div>
   </div>
-    <a id="title">FruitsFlavours</a>
+    <a onClick={() => {MainPage()}} id="title">FruitsFlavours</a>
     <div className={styles.navcontainer}>
     <div className={styles.Searchbar}>
       {lang ? 
