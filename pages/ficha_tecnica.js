@@ -40,7 +40,7 @@ const Ficha_tecnica = () => {
             <div>
             <Image src={'/reiginalda.png'} width={300} height={300}/>
             </div>
-            <h5>Reiginaldo D'Alva</h5>
+            <h5>Reiginaldo D&aposAlva</h5>
           </div>
           <div>
             <div>
