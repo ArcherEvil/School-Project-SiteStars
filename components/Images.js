@@ -27,6 +27,8 @@ import img26 from '../public/Frutas/Laranja/2.jpg'
 import img27 from '../public/Frutas/Laranja/3.jpg'
 import img28 from '../public/Frutas/SapeSape/1.png'
 import img29 from '../public/Frutas/Cajamanga/1.png'
+import img30 from '../public/Frutas/Cajamanga/2.jpg'
+import img31 from '../public/Frutas/Cajamanga/3.jpg'
 
 
 
@@ -82,7 +84,8 @@ const Images = {
         img28
     ],
     Cajamanga : [
-        img29
+        img30,
+        img31
     ]
 }
 
