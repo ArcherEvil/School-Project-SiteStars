@@ -22,6 +22,12 @@ import img21 from '../public/Frutas/mamão/1650022608657 (1).jpg'
 import img22 from '../public/Frutas/mamão/1650022645086.jpg'
 import img23 from '../public/Frutas/mamão/1650022662213.jpg'
 import img24 from '../public/Frutas/mamão/1650022706250.jpg'
+import img25 from '../public/Frutas/Laranja/1.png'
+import img26 from '../public/Frutas/Laranja/2.jpg'
+import img27 from '../public/Frutas/Laranja/3.jpg'
+import img28 from '../public/Frutas/SapeSape/1.png'
+import img29 from '../public/Frutas/Cajamanga/1.png'
+
 
 
 const Images = {
@@ -66,6 +72,17 @@ const Images = {
         img22,
         img23,
         img24
+    ],
+    Laranja : [
+        img25,
+        img26,
+        img27,
+    ],
+    SapeSape : [
+        img28
+    ],
+    Cajamanga : [
+        img29
     ]
 }
 

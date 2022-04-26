@@ -1,6 +1,73 @@
 main.main {
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main.main h4 {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 2rem;
+}
+
+main.main p {
+  margin-top: 200px;
+  font-size: 3rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+main.main div.participantes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main.main div.participantes div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.3rem;
+}
+
+main.main div.participantes div div {
+  border-radius: 10%;
+}
+
+main.main div.participantes div h5 {
+  margin: 0;
+  font-size: 2rem;
+  text-decoration: underline;
+  color: gray;
+}
+
+main.main div.text {
+  background: white;
+  padding: 3rem;
+  border-radius: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,11 +77,86 @@ main.main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-main.main p {
-  font-size: 3rem;
-  font-weight: 700;
+main.main div.text div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+main.main div.text div h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  padding: 0;
+}
+
+main.main div.text div h2 {
+  color: #8e8e8e;
   text-decoration: underline;
+  font-size: 1.9rem;
+  padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+  main.main div.participantes div h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0.8rem;
+  }
+  main.main div.text {
+    background: white;
+    padding: 1rem;
+    border-radius: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main.main div.text div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 2rem;
+  }
+  main.main div.text div h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  main.main div.text div h2 {
+    color: #8e8e8e;
+    text-decoration: underline;
+    font-size: 1rem;
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=ficha_tecnica.module.css.map */

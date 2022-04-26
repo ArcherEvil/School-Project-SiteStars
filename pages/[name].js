@@ -63,7 +63,7 @@ const Fruit = () => {
     }
     return (
       <button className={styles.seeingallery}  onClick={() => {Link(ID)}}>
-        See in Gallery
+        {lang ? 'See in Gallery' : 'Ver na Galeria'}
       </button>
     )
   }

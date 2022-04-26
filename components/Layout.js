@@ -4,6 +4,7 @@ import {Router} from 'next/router'
 import { useEffect, useState } from 'react';
 import Loader from './Loading'
 import Lang from './Lang'
+import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   const [lang, changeLang] = useState(null)
@@ -34,6 +35,7 @@ const Layout = ({ children }) => {
       <Navbar/>
       {Loading && <Loader />}
       {children}
+      <Footer/>
     </>
   )
 }

@@ -1,0 +1,35 @@
+footer.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 200px;
+    background: rgb(25, 25, 25);
+    p {
+        color: white;
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    div {
+        padding: 0rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer.footer {
+        min-height: 80px;
+        p {
+            margin-top: 20px;
+            font-size: 1rem;
+        }
+        div {
+            transform: scale(0.5);
+        }
+    }
+}

@@ -24,8 +24,8 @@ const Galeria = () => {
 
 
   const names = {
-    en : ['Banana', 'Eddoes', 'Cocoa', 'Carambola', 'Breadfruit', 'Jackfruit', 'Lemon', 'Safou', 'Papaya'],
-    pt : ['Banana Pão', 'Batata Doce', 'Cacau', 'Carambola', 'Fruta Pão', 'Jaca', 'Limão', 'Safú', 'Mamão']
+    en : ['Banana', 'Eddoes', 'Cocoa', 'Carambola', 'Breadfruit', 'Jackfruit', 'Lemon', 'Safou', 'Papaya', 'Orange', 'Soursop', 'Ambarella'],
+    pt : ['Banana Pão', 'Batata Doce', 'Cacau', 'Carambola', 'Fruta Pão', 'Jaca', 'Limão', 'Safú', 'Mamão', 'Laranja', 'Sape-Sape', 'Cajamanga']
     
   }
   console.log(Object.entries(Images))
