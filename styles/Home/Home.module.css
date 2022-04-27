@@ -17,6 +17,7 @@ main .mainlogo {
 }
 
 main .mainlogo .logo {
+  margin-bottom: 2rem;
   display: block;
   width: 400px;
 }
