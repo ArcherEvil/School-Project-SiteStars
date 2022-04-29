@@ -28,7 +28,7 @@ const Ficha_tecnica = () => {
         {lang ? 
         <p>Credits</p>
         :<p>Ficha Técnica</p>}
-        <h4>Alunos Responsaveis</h4>
+        <h4>Alunos Responsáveis</h4>
         <div className={styles.participantes}>
         <div>
           <div>  
